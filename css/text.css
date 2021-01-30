@@ -1,0 +1,33 @@
+/*By Quinn0823*/
+
+h1 {
+    color: #0000ff;
+    text-align: center;
+}
+h2, h3, h4, h5, h6 {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #0000ff;
+}
+
+p, ul.a, ol.a {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a:link, a:visited {
+    color: #0000FF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
