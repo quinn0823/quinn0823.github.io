@@ -3,6 +3,7 @@
 h1 {
     color: #0000ff;
     text-align: center;
+    text-shadow: 5px 5x 10px #A8A8A8;
 }
 h2, h3, h4, h5, h6 {
     margin-left: 10%;
@@ -37,4 +38,16 @@ a:active {
 hr {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+table {
+    margin-left: 12%;
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 1px solid #DFE2E5;
+}
+td {
+    padding: 6px;
+    text-align: center;
 }
