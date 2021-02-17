@@ -15,7 +15,7 @@
     float: left;
     position:relative;
 }
-#list ul li a{
+#list ul li a, #list ul li p{
     width:100%;
     height: 40px;
     line-height: 40px;
