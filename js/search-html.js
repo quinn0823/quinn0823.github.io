@@ -1,1 +1,0 @@
-document.getElementById("search").innerHTML = "<button onclick='search()'>Search</button><input id='search' placeholder='Search'>";

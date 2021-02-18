@@ -1,0 +1,1 @@
+document.getElementById("command").innerHTML = "<input id='command' placeholder='Command'><button onclick='command()'>Command</button>";
