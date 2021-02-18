@@ -5,13 +5,13 @@
   <tbody>
     <tr>
       <td>
-        <a href="https://github.com/Quinn0823" target="_blank"><img src="/images/users/Quinn0823.jpg" width="100px;"><br><sub><b>Quinn0823</b></sub></a>
+        <a href="https://github.com/Quinn0823" target="_blank"><img src="https://quinn0823.github.io/images/users/Quinn0823.jpg" width="100px;"><br><sub><b>Quinn0823</b></sub></a>
       </td>
       <td>
-        <a href="https://github.com/ljy-002" target="_blank"><img src="/images/users/ljy-002.jpg" width="100px;"><br><sub><b>ljy-002</b></sub></a>
+        <a href="https://github.com/ljy-002" target="_blank"><img src="https://quinn0823.github.io/images/users/ljy-002.jpg" width="100px;"><br><sub><b>ljy-002</b></sub></a>
       </td>
       <td>
-        <a href="https://github.com/MapMaths" target="_blank"><img src="/images/users/mapmaths.png" width="100px;"><br><sub><b>MapMaths</b></sub></a>
+        <a href="https://github.com/MapMaths" target="_blank"><img src="https://quinn0823.github.io/images/users/mapmaths.png" width="100px;"><br><sub><b>MapMaths</b></sub></a>
       </td>
     </tr>
   </tbody>
