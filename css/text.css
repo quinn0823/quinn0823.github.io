@@ -16,7 +16,7 @@ p, ul.first, ol.first {
     margin-right: 10%;
 }
 
-p.about {
+#about p {
     margin-left: 12%;
     margin-right: 10%;
     margin-top: 10px;
