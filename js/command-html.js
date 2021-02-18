@@ -1,1 +1,1 @@
-document.getElementById("command").innerHTML = "<input id='command' placeholder='Command'><button onclick='command()'>🔍</button><script src='/js/command-html.js'></script>";
+document.getElementById("command").innerHTML = "<input id='command' placeholder='Command'><button onclick='command()'>🔍</button><script src='/js/command.js'></script>";
