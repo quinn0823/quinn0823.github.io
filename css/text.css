@@ -22,6 +22,9 @@ p.about {
     margin-top: 10px;
 	margin-bottom: 10px;
 }
+p.first {
+    margin-left: 12%;
+}
 
 a:link, a:visited {
     color: #0000FF;
