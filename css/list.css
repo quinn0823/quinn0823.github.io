@@ -3,9 +3,9 @@
 #list {
     width: 100%;
     height: 40px;
-    border-radius: 20px;
     background-color: #0000ff;
     box-shadow: 5px 5px 10px #A8A8A8;
+    border-radius: 0px 20px 20px 0px;
 }
 #list ul{
     padding: 0;
@@ -42,6 +42,9 @@
 }
 #list ul li.about {
     float: right;
+}
+#list ul li.about a {
+    border-radius: 0px 20px 20px 0px;
 }
 #list ul li a{
     width:100%;
