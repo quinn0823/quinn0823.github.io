@@ -16,13 +16,11 @@
   </tbody>
 </table>
 -Test
-<ul class="first">
 >[Test Area](https://quinn0823.github.io/test)
-</ul>
 -Code
 >[Open with GitHub Desktop](x-github-client://openRepo/https://github.com/Quinn0823/Quinn0823.github.io)
 
->[https://github.com/Quinn0823/Quinn0823.github.io/archive/main.zip](Download ZIP)
+>[Download ZIP](https://github.com/Quinn0823/Quinn0823.github.io/archive/main.zip)
 -Update Log
 >[Commits](https://github.com/Quinn0823/Quinn0823.github.io/commits)
 
