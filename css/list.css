@@ -25,10 +25,22 @@
     text-align: center;
     background-color: #ffffff;
 }
+#list ul input {
+    width: 20%;
+    float: right;
+    height: 34px;
+}
+#list ul button {
+    float: right;
+    height: 40px;
+}
 #list ul li {
     width: 10%;
     float: left;
     position: relative;
+}
+#list ul li.about {
+    float: right;
 }
 #list ul li a{
     width:100%;
