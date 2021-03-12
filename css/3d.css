@@ -4,7 +4,7 @@ body {
 
 .BoardName {
     color: #ffffff;
-    box-shadow: 5px 5px 10px #A8A8A8;
+    text-shadow: 5px 5px 10px #A8A8A8;
     font-size: 35px;
     transform-style: preserve-3d;
     transform: translateZ(80px);
