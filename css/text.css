@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'segoepr';
+    src: url(/fonts/segoepr.ttf);
+}
+h1, h2, h3, h4, h5, h6, p, dd, a, li, td{
+    font-family: 'segoepr';
+}
+
 h1 {
     color: #0000ff;
     text-align: center;
