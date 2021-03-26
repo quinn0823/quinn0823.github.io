@@ -3,7 +3,7 @@ var intervalid;
 intervalid = setInterval("time()", 1000);   
 function time() {   
     if (i == 0) {   
-        history.go(-1);
+        window.location=("/home");
         clearInterval(intervalid);   
     }   
     document.getElementById("time").innerHTML = i;   
