@@ -1,4 +1,5 @@
 body {
+    font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif; 
     text-align: center;
 }
 
@@ -8,6 +9,7 @@ body {
     font-size: 35px;
     transform-style: preserve-3d;
     transform: translateZ(80px);
+    font-family: 'microsoftyahei';
 }
 
 .main {

@@ -5,6 +5,9 @@
 h1, h2, h3, h4, h5, h6, p, dd, a, li, td{
     font-family: 'segoepr';
 }
+span {
+    font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
 
 h1 {
     color: #0000ff;
