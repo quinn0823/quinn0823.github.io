@@ -1,9 +1,9 @@
 body {
-    font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif; 
     text-align: center;
 }
 
 .BoardName {
+    font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif; 
     color: #ffffff;
     text-shadow: 5px 5px 10px #A8A8A8;
     font-size: 35px;
