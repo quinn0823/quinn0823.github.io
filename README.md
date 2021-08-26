@@ -1,9 +1,9 @@
 # quinn0823.github.io | Quinn-Web
--Web
+- Web
 
 >[Quinn-Web](https://Quinn0823.github.io)
 
--People
+- People
 
 <table>
   <tbody>
@@ -24,15 +24,15 @@
   </tbody>
 </table>
 
--Test
+- Test
 
 >[Test](https://github.com/Quinn0823/test)
 
--Code
+- Code
 
 >[Download ZIP](https://github.com/Quinn0823/Quinn0823.github.io/archive/main.zip)
 
--Update Log
+- Update Log
 
 > [Commits](https://github.com/Quinn0823/Quinn0823.github.io/commits)
 
