@@ -1,9 +1,9 @@
 # quinn0823.github.io | Quinn-Web
--Web
+- Web
 
 >[Quinn-Web](https://Quinn0823.github.io)
 
--People
+- People
 
 <table>
   <tbody>
@@ -17,19 +17,22 @@
       <td>
         <a href="https://github.com/MapMaths" target="_blank"><img src="https://quinn0823.github.io/images/users/mapmaths.png" width="100px;"><br><sub><b>MapMaths</b></sub></a>
       </td>
+      <td>
+        <a href="https://github.com/Adamtimmy" target="_blank"><img src="https://avatars.githubusercontent.com/u/64662299?v=4" width="100px;"><br><sub><b>AdamTimmy</b></sub></a>
+      </td>
     </tr>
   </tbody>
 </table>
 
--Test
+- Test
 
 >[Test](https://github.com/Quinn0823/test)
 
--Code
+- Code
 
 >[Download ZIP](https://github.com/Quinn0823/Quinn0823.github.io/archive/main.zip)
 
--Update Log
+- Update Log
 
 > [Commits](https://github.com/Quinn0823/Quinn0823.github.io/commits)
 
