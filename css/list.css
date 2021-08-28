@@ -4,7 +4,6 @@
     height: 40px;
     background-color: #0000ff;
     box-shadow: 5px 5px 10px #A8A8A8;
-    border-radius: 20px;
     position: fixed;
 }
 #list ul{
@@ -16,7 +15,6 @@
     float: left;
     height: 40px;
     line-height: 40px;
-    border-radius: 20px 0px 0px 20px;
 }
 #list ul span {
     width: 100px;
