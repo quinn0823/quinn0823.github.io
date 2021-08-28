@@ -17,13 +17,14 @@
     border-radius: 20px 0px 0px 20px;
 }
 #list ul span {
-    width: 10%;
+    width: 100px;
     float: left;
     height: 40px;
     line-height: 40px;
     color: #0000ff;
     text-align: center;
     background-color: #ffffff;
+    white-space: nowrap;
 }
 #list ul input {
     width: 20%;
