@@ -15,7 +15,7 @@
         <a href="https://github.com/ljy-002" target="_blank"><img src="https://quinn0823.github.io/images/users/ljy-002.jpg" width="100px;"><br><sub><b>ljy-002</b></sub></a>
       </td>
       <td>
-        <a href="https://github.com/MapMaths" target="_blank"><img src="https://quinn0823.github.io/images/users/mapmaths.png" width="100px;"><br><sub><b>MapMaths</b></sub></a>
+        <a href="https://github.com/MapMaths" target="_blank"><img src="https://avatars.githubusercontent.com/u/62785981?s=60&v=4" width="100px;"><br><sub><b>MapMaths</b></sub></a>
       </td>
       <td>
         <a href="https://github.com/Adamtimmy" target="_blank"><img src="https://avatars.githubusercontent.com/u/64662299?v=4" width="100px;"><br><sub><b>AdamTimmy</b></sub></a>
