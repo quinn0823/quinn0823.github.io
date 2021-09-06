@@ -31,13 +31,17 @@
 	<h1>Test</h1>
 	<div id="list">
 		<ul>
-			<li>
-				<img src="/favicon.ico">
-				<span>Quinn-Web</span>
-			</li>
-			<li><a href="/">Home</a></li>
-			<li><a href="/test" class="active">Test</a></li>
-			<li class="about"><a href="/about">About</a></li>
+			<h1>Home</h1>
+			<div id="list">
+				<div>
+					<img src="/favicon.ico" alt="icon" />
+					<span>Quinn-Web</span>
+				</div>
+				<ul>
+					<li><a href="/" class="active">Home</a></li>
+					<li class="about"><a href="/about">About</a></li>
+				</ul>
+			</div>
 			<input id='command' placeholder='Command'>
 			<button onclick='command()'>🔍</button>
 		</ul>

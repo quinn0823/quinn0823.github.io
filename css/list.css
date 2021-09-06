@@ -3,7 +3,7 @@
     top: 0px;
     width: 100%;
     height: 40px;
-    background-color: #0000ff;
+    background-color: blue;
     box-shadow: 5px 5px 10px #A8A8A8;
     position: fixed;
 }
@@ -12,26 +12,27 @@
     padding: 0;
     margin: 0 auto;
     list-style-type: none;
+    user-select: none;
     display: flex;
     align-items: revert;
-    user-select: none;
     justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
 
-#list ul li img {
+#list div img {
     float: left;
     height: 40px;
     line-height: 40px;
 }
 
-#list ul span {
+#list div span {
     width: 100px;
     float: left;
     height: 40px;
     line-height: 40px;
-    color: #0000ff;
+    color: blue;
     text-align: center;
-    background-color: #ffffff;
+    background-color: white;
     white-space: nowrap;
 }
 
@@ -61,7 +62,7 @@
     height: 40px;
     line-height: 40px;
     display: block;
-    color: #ffffff;
+    color: white;
     text-align: center;
     text-decoration: none;
 }
@@ -94,5 +95,5 @@
 
 #list ul li ul li a {
     margin: 0 auto;
-    background-color: #0000ff;
+    background-color: blue;
 }
