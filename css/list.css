@@ -27,7 +27,13 @@
     background-color: #0000ff;
 }
 
+#list ul hr {
+	margin-left: 10%;
+	margin-right: 10%;
+}
 #list ul marquee {
+	margin-left: 10%;
+	margin-right: 10%;
     width: 200px;
     padding: 10px;
 }
