@@ -1,0 +1,30 @@
+#list ul {
+    overflow: auto;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 100%;
+    background-color: #0000ff;
+}
+
+#list ul img {
+    align: center;
+    width: 50;
+    height: 50;
+}
+
+#list ul li a {
+    display: block;
+    color: #ffffff;
+    padding: 10px;
+	text-align: center;
+    text-decoration: none;
+}
+#list ul li a:visited, 
+#list ul li a:hover, 
+#list ul li a.active {
+    background-color: #0066ff;
+    color: #ffffff;
+}
