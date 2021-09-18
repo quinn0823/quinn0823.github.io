@@ -2,11 +2,13 @@
     font-family: 'segoepr';
     src: url(/fonts/segoepr.ttf);
 }
-h1, h2, h3, h4, h5, h6, p, dd, a, li, td{
+h1, h2, h3, h4, h5, h6, p, dd, a, hr, ul.first, ol.first {
     font-family: 'segoepr';
+    margin-left: 210px;
+    margin-right: 10px;
 }
-span {
-    font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+li, td, span {
+    font-family: 'segoepr';
 }
 
 h1 {
@@ -17,24 +19,7 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-    margin-left: 10%;
-    margin-right: 10%;
     color: #0000ff;
-}
-
-p, ul.first, ol.first {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#about p {
-    margin-left: 12%;
-    margin-right: 10%;
-    margin-top: 10px;
-	margin-bottom: 10px;
-}
-p.first {
-    margin-left: 12%;
 }
 
 a:link, a:visited {
@@ -49,13 +34,8 @@ a:active {
     text-decoration: underline;
 }
 
-hr {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 table {
-    margin-left: 12%;
+    margin-left: 213px;
     border-collapse: collapse;
 }
 table, td, th {
