@@ -4,14 +4,14 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 250px;
+    width: 200px;
     height: 100%;
     background-color: #ffffff;
 }
 
 #list ul img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
 #list ul li a {
@@ -22,13 +22,15 @@
 	text-align: center;
     text-decoration: none;
 }
-#list ul li a:visited, 
-#list ul li a:hover, 
-#list ul li a.active {
-    color: #0066ff;
+#list ul li a:hover {
+    color: #ffffff;
+    background-color: #0000ff;
 }
 
 #list ul marquee {
-    width: 250px;
-    height: 10px;
+	padding: 10px;
+    width: 200px;
+}
+#list ul marquee span {
+	color: #0000ff
 }
