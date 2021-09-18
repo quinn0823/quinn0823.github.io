@@ -28,9 +28,8 @@
 }
 
 #list ul marquee {
-	padding: 10px;
     width: 200px;
 }
 #list ul marquee span {
-	color: #0000ff
+	color: #0000ff;
 }
