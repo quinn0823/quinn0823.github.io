@@ -6,7 +6,7 @@
     padding: 0;
     width: 250px;
     height: 100%;
-    background-color: #0000ff;
+    background-color: #ffffff;
 }
 
 #list ul img {
@@ -16,8 +16,8 @@
 
 #list ul li a {
     display: block;
-    color: #ffffff;
-    background-color: #0000ff;
+    color: #0000ff;
+    background-color: #ffffff;
     padding: 10px;
 	text-align: center;
     text-decoration: none;
@@ -25,8 +25,7 @@
 #list ul li a:visited, 
 #list ul li a:hover, 
 #list ul li a.active {
-    background-color: #0066ff;
-    color: #ffffff;
+    color: #0066ff;
 }
 
 #list ul marquee {
