@@ -4,8 +4,8 @@
 }
 h1, h2, h3, h4, h5, h6, p, dd, hr, ul.first, ol.first {
     font-family: 'segoepr';
-    margin-left: 210px;
-    margin-right: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 li, td, span {
     font-family: 'segoepr';
@@ -35,7 +35,7 @@ a:active {
 }
 
 table {
-    margin-left: 213px;
+    margin-left: 10%;
     border-collapse: collapse;
 }
 table, td, th {
