@@ -27,11 +27,11 @@
     float: left;
     position:relative;
 }
-#list ul li.about {
+#list ul li.about, #list ul button, #list ul input {
     float: right;
 }
 #list ul li a{
-    width:100%;
+    width: 100%;
     height: 40px;
     line-height: 40px;
     display: block;
@@ -64,9 +64,11 @@
     text-decoration: none;
     background-color: #0000ff;
 }
+
 #list ul marquee {
     height: 40px;
     line-height: 40px;
+    float: left;
     color: #ffffff;
     display: block;
 }
@@ -77,6 +79,104 @@
 #list ul marquee span a:link, #list ul marquee span a:visited {    
     color: #ffffff;
     text-decoration: none;
+}#list {
+    width: 100%;
+    height: 40px;
+    background-color: #0000ff;
+}
+#list ul{
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+}
+#list ul img{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+#list ul span {
+    width: 125px;
+    height: 40px;
+    float: left;
+    color: #0000ff;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ffffff;
+}
+#list ul li {
+    width: 10%;
+    float: left;
+    position:relative;
+}
+#list ul li.about{
+    float: right;
+}
+#list ul li a{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+#list ul li a:hover, #list ul li a.active, #list ul li ul li a:hover, #list ul li ul li a.active{
+    text-decoration: none;
+    background-color: #0066ff;
+}
+#list ul li ul {
+    top: 40px;
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+    position:absolute;
+    
+}
+#list ul li:hover ul {
+    display: block;
+}
+#list ul li ul li {
+    width: 75%;
+    margin: 0 auto;
+    float: none;
+}
+#list ul li ul li a {
+    margin: 0 auto;
+    text-decoration: none;
+    background-color: #0000ff;
+}
+
+#list ul marquee {
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    color: #ffffff;
+    display: block;
+}
+#list ul marquee span{
+    color: #ffffff;
+    background-color: #0000ff;
+}
+#list ul marquee span a:link, #list ul marquee span a:visited {    
+    color: #ffffff;
+    text-decoration: none;
+}
+#list ul marquee span a:hover {
+    text-decoration: underline;
+}
+#list ul marquee span a:active {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+#list ul button {
+    float: right;
+    height: 40px;
+}
+#list ul input {
+    float: right;
+    height: 34px;
+    text-align: center;
 }
 #list ul marquee span a:hover {
     text-decoration: underline;
