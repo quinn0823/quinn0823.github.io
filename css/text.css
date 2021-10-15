@@ -44,3 +44,8 @@ td {
     padding: 6px;
     text-align: center;
 }
+
+iframe {
+    margin-left: 10%;
+    margin-right: 10%;
+}
