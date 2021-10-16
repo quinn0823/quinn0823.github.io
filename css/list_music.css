@@ -1,19 +1,19 @@
-#musiclist {
+#list {
     width: 100%;
     height: 40px;
     background-color: #FA233B;
 }
-#musiclist ul{
+#list ul{
     padding: 0;
     margin: 0 auto;
     list-style-type: none;
 }
-#musiclist ul img{
+#list ul img{
     width: 40px;
     height: 40px;
     float: left;
 }
-#musiclist ul span {
+#list ul span {
     width: 125px;
     height: 40px;
     float: left;
@@ -23,16 +23,16 @@
     background-color: #ffffff;
     font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
 }
-#musiclist ul li {
+#list ul li {
     width: 10%;
     float: left;
     position:relative;
 }
-#musiclist ul li.about{
+#list ul li.about{
     float: right;
 }
 
-#musiclist ul li a{
+#list ul li a{
     width: 100%;
     height: 40px;
     line-height: 40px;
@@ -41,7 +41,7 @@
     text-align: center;
     text-decoration: none;
 }
-#musiclist ul li a:hover, #list ul li a.active, #list ul li ul li a:hover, #list ul li ul li a.active{
+#list ul li a:hover, #list ul li a.active, #list ul li ul li a:hover, #list ul li ul li a.active{
     text-decoration: none;
     background-color: #FA233B;
 }
@@ -53,7 +53,7 @@
     background-color: #FA233B;
 }
 
-#musiclist ul li ul {
+#list ul li ul {
     top: 40px;
     width: 100%;
     margin: 0 auto;
@@ -61,47 +61,47 @@
     position:absolute;
     
 }
-#musiclist ul li:hover ul {
+#list ul li:hover ul {
     display: block;
 }
-#musiclist ul li ul li {
+#list ul li ul li {
     width: 75%;
     margin: 0 auto;
     float: none;
 }
-#musiclist ul li ul li a {
+#list ul li ul li a {
     margin: 0 auto;
     text-decoration: none;
     background-color: #FA233B;
 }
 
-#musiclist ul marquee {
+#list ul marquee {
     height: 40px;
     line-height: 40px;
     color: #ffffff;
     display: block;
 }
-#musiclist ul marquee span{
+#list ul marquee span{
     color: #ffffff;
     background-color: #FA233B;
 }
-#musiclist ul marquee span a:link, #list ul marquee span a:visited {    
+#list ul marquee span a:link, #list ul marquee span a:visited {    
     color: #ffffff;
     text-decoration: none;
 }
-#musiclist ul marquee span a:hover {
+#list ul marquee span a:hover {
     text-decoration: underline;
 }
-#musiclist ul marquee span a:active {
+#list ul marquee span a:active {
     color: #FF0000;
     text-decoration: underline;
 }
 
-#musiclist ul button {
+#list ul button {
     float: right;
     height: 40px;
 }
-#musiclist ul input {
+#list ul input {
     width: 20%;
     float: right;
     height: 34px;
