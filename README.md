@@ -45,5 +45,4 @@
 - Update Log
 
 > [Commits](https://github.com/Quinn0823/Quinn0823.github.io/commits)
-
 > [Releases](https://github.com/Quinn0823/Quinn0823.github.io/releases)
