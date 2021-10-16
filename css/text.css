@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'segoepr';
-    src: url(/fonts/segoepr.ttf);
+    src: url(/assets/segoepr.ttf);
 }
 h1, h2, h3, h4, h5, h6, p, dd, hr, ul.first, ol.first {
     font-family: 'segoepr';
