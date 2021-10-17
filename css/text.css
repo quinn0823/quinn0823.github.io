@@ -45,10 +45,19 @@ td {
     text-align: center;
 }
 
+[title="copy"] {
+    cursor: copy;
+}
+
+[title="enter"] {
+    cursor: pointer;
+}
+
 iframe {
     margin-left: 10%;
     margin-right: 10%;
 }
+
 iframe.first {
     margin-top: 10px;
 }
