@@ -1,6 +1,6 @@
 # About Quinn-Web | Quinn-Web
 ### Web
-> [Quinn-Web](https://Quinn0823.github.io)
+> [Quinn-Website](https://Quinn0823.github.io)
 ### Menu
 - Pages
   > [Home](https://quinn0823.github.io/home.html)
@@ -15,7 +15,7 @@
 
   > [Code](https://quinn0823.github.io/code.html) [🔗](#code)
 
-  > [Web History](https://quinn0823.github.io/web_history/)
+  > [Website History](https://quinn0823.github.io/web_history/)
 
 ### People
 - Maintainer
