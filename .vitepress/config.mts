@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Jonathan Chiu",
-  description: "Hi! I'm Jonathan Chiu.",
+  title: 'Jonathan Chiu',
+  description: 'Hi! I\'m Jonathan Chiu.',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // nav: [
@@ -22,7 +22,7 @@ export default defineConfig({
     // ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/quinn0823/quinn0823.github.io' }
     ]
   }
 })
