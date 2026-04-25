@@ -24,5 +24,13 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/quinn0823/quinn0823.github.io' }
     ]
+  },
+
+  rewrites: {
+    'en/:rest*': ':rest*'
+  },
+  locales: {
+    root: { label: 'English', lang: 'en' },
+    zh: { label: '简体中文', lang: 'zh' }
   }
 })
