@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Jonathan Chiu',
   description: 'Hi! I\'m Jonathan Chiu.',
+  head: [
+    ['link', { rel: 'icon', href: '/le-flat-fill-blue-transparent.svg' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // nav: [
