@@ -1,5 +1,16 @@
 import { defineConfig } from 'vitepress'
 
+const START_YEAR = 2026;
+const currentYear = new Date().getFullYear();
+let copyrightYear;
+if (currentYear === START_YEAR) {
+  copyrightYear = `${START_YEAR}`;
+} else if (currentYear === START_YEAR + 1) {
+  copyrightYear = `${START_YEAR}, ${currentYear}`;
+} else {
+  copyrightYear = `${START_YEAR}-${currentYear}`;
+}
+
 export default defineConfig({
   title: 'Jonathan Chiu',
   // titleTemplate: ':title | Jonathan Chiu',
@@ -30,26 +41,67 @@ export default defineConfig({
   // vue: {},
 
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    // i18nRouting: true,
+
+    logo: { src: '/le-flat-fill-blue-transparent.svg', alt: 'Little Earthworm'},
+    // siteTitle: '',
     nav: [
-      { text: 'Home', link: '/' },
+      {
+        text: 'Projects',
+        items: [
+          { text: 'HTML', link: '/projects/html' },
+          { text: 'Python', link: '/projects/python' },
+          { text: 'Scratch', link: '/projects/scratch' }
+        ]
+      },
       { text: 'Liu Yao (Six Lines)', link: '/liuyao' },
       { text: 'Mian Xiang (face reading)', link: '/mianxiang' }
     ],
-
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
-
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/quinn0823/quinn0823.github.io' }
-    ]
+      { icon: 'github', link: 'https://github.com/quinn0823', ariaLabel: 'Jonathan Chiu on GitHub' }
+    ],
+
+    sidebar: {
+      '/projects/': [
+        { text: 'HTML', link: '/projects/html' },
+        { text: 'Python', link: '/projects/python' },
+        { text: 'Scratch', link: '/projects/scratch' }
+      ],
+    },
+
+    // aside: true,
+    outline: 'deep',
+
+    editLink: {
+      pattern: 'https://github.com/quinn0823/quinn0823.github.io/edit/main/:path',
+      text: 'Edit this page on GitHub'
+    },
+    // lastUpdated: {
+    //   text: 'Last updated'
+    //   formatOptions: {}
+    // },
+    // docFooter: {
+    //   prev: '',
+    //   next: ''
+    // }
+
+    footer: {
+      message: 'Licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 license</a>.',
+      copyright: `Copyright © ${copyrightYear} <a href="https://github.com/quinn0823" target="_blank">Jonathan Chiu</a>`
+    },
+
+    // darkModeSwitchLabel: 'Appearance',
+    // lightModeSwitchTitle: 'Switch to light theme',
+    // darkModeSwitchTitle: 'Switch to dark theme',
+    // sidebarMenuLabel: 'Menu',
+    // returnToTopLabel: 'Return to top',
+    // langMenuLabel: 'Change language',
+
+    search: {
+      provider: 'local'
+    },
+
+    externalLinkIcon: true,
   },
 
   locales: {
