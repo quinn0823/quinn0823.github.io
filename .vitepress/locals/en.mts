@@ -38,6 +38,19 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     footer: {
       message: 'Licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 license</a>.',
       copyright: `Copyright © ${copyrightYear} <a href="https://github.com/quinn0823" target="_blank">Jonathan Chiu</a>`
-    }
+    },
+
+    docFooter: {
+      prev: 'Previous page',
+      next: 'Next page'
+    },
+
+    outline: {
+      label: 'On this page'
+    },
+
+    lastUpdated: {
+      text: 'Last updated'
+    },
   }
 }
