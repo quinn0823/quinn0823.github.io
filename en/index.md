@@ -5,7 +5,7 @@ layout: home
 hero:
   name: Jonathan Chiu
   text: Hi! I'm Jonathan Chiu.
-  tagline: Developer, fortune teller, I Ching researcher, Traditional Chinese Medicine researcher.
+  tagline: Developer, enthusiast of the I Ching and Traditional Chinese Medicine.
   image:
     src: /le-flat-fill-blue-transparent.svg
     alt: Little Earthworm
