@@ -1,12 +1,34 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Jonathan Chiu',
+  // titleTemplate: ':title | Jonathan Chiu',
   description: 'Hi! I\'m Jonathan Chiu.',
   head: [
     ['link', { rel: 'icon', href: '/le-flat-fill-blue-transparent.svg' }]
   ],
+  lang: 'en-US',
+  // base: '/',
+
+  cleanUrls: true,
+  rewrites: { 'en/:rest*': ':rest*' },
+
+  // srcDir: '.',
+  // srcExclude: [],
+  // outDir: './.vitepress/dist',
+  // assetsDir: 'assets',
+  // cacheDir: './.vitepress/cache',
+  // ignoreDeadLinks: false,
+  // metaChunk: false,
+  // mpa: false,
+
+  // appearance: true,
+  lastUpdated: true,
+
+  // markdown: {},
+  // vite: {},
+  // vue: {},
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // nav: [
@@ -29,9 +51,6 @@ export default defineConfig({
     ]
   },
 
-  rewrites: {
-    'en/:rest*': ':rest*'
-  },
   locales: {
     root: { label: 'English', lang: 'en' },
     zh: { label: '简体中文', lang: 'zh' }
