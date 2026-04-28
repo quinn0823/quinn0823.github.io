@@ -31,10 +31,11 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    // nav: [
-    //   { text: 'Home', link: '/' },
-    //   { text: 'Examples', link: '/markdown-examples' }
-    // ],
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Liu Yao (Six Lines)', link: '/liuyao' },
+      { text: 'Mian Xiang (face reading)', link: '/mianxiang' }
+    ],
 
     // sidebar: [
     //   {
