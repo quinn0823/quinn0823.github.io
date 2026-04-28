@@ -20,11 +20,14 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     ],
 
     sidebar: {
-      '/projects/': [
-        { text: 'HTML', link: '/projects/html' },
-        { text: 'Python', link: '/projects/python' },
-        { text: 'Scratch', link: '/projects/scratch' }
-      ],
+      '/projects/': {
+        base: '/projects/',
+        items: [
+          { text: 'HTML', link: 'html' },
+          { text: 'Python', link: 'python' },
+          { text: 'Scratch', link: 'scratch' }
+        ]
+      },
     },
 
     editLink: {

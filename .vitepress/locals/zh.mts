@@ -20,11 +20,14 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     ],
 
     sidebar: {
-      '/zh/projects/': [
-        { text: 'HTML', link: '/zh/projects/html' },
-        { text: 'Python', link: '/zh/projects/python' },
-        { text: 'Scratch', link: '/zh/projects/scratch' }
-      ],
+      '/zh/projects/': {
+        base: '/zh/projects/',
+        items: [
+          { text: 'HTML', link: 'html' },
+          { text: 'Python', link: 'python' },
+          { text: 'Scratch', link: 'scratch' }
+        ]
+      },
     },
 
     editLink: {
