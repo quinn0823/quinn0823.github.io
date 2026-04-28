@@ -30,7 +30,7 @@ export default defineConfig({
   // assetsDir: 'assets',
   // cacheDir: './.vitepress/cache',
   // ignoreDeadLinks: false,
-  // metaChunk: false,
+  metaChunk: true,
   // mpa: false,
 
   // appearance: true,
