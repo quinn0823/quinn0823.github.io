@@ -107,5 +107,9 @@ export default defineConfig({
   locales: {
     root: { label: 'English', lang: 'en' },
     zh: { label: '简体中文', lang: 'zh' }
+  },
+
+  sitemap: {
+    hostname: 'https://quinn0823.github.io'
   }
 })
