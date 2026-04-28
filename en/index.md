@@ -6,9 +6,7 @@ hero:
   name: Jonathan Chiu
   text: Hi! I'm Jonathan Chiu.
   tagline: Developer, enthusiast of the I Ching and Traditional Chinese Medicine.
-  image:
-    src: /le-flat-fill-blue-transparent.svg
-    alt: Little Earthworm
+  image: /le-flat-fill-blue-transparent.svg
   # actions:
   #   - theme: brand
   #     text: Markdown Examples

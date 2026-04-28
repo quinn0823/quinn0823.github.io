@@ -6,9 +6,7 @@ hero:
   name: 煊名
   text: 嗨！我是煊名。
   tagline: 开发者，易经和传统中医爱好者。
-  image:
-    src: /le-flat-fill-blue-transparent.svg
-    alt: Little Earthworm
+  image: /le-flat-fill-blue-transparent.svg
   # actions:
   #   - theme: brand
   #     text: Markdown Examples
