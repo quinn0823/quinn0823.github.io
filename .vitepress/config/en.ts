@@ -1,43 +1,21 @@
-import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
-import copyrightYear from './copyright-year'
+import { defineConfig, type DefaultTheme } from 'vitepress'
 
-export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
+export const en = defineConfig({
+  lang: 'en',
+
   title: 'Jonathan Chiu',
   description: 'Hi! I\'m Jonathan Chiu.',
 
   themeConfig: {
-    nav: [
-      {
-        text: 'Projects',
-        items: [
-          { text: 'HTML', link: '/projects/html' },
-          { text: 'Python', link: '/projects/python' },
-          { text: 'Scratch', link: '/projects/scratch' }
-        ]
-      },
-      { text: 'Liu Yao (Six Lines)', link: '/liuyao' },
-      { text: 'Mian Xiang (face reading)', link: '/mianxiang' }
-    ],
+    nav: nav(),
 
     sidebar: {
-      '/projects/': {
-        base: '/projects/',
-        items: [
-          { text: 'HTML', link: 'html' },
-          { text: 'Python', link: 'python' },
-          { text: 'Scratch', link: 'scratch' }
-        ]
-      },
+      '/projects/': { base: '/projects/', items: sidebarProjects() },
     },
 
     editLink: {
       pattern: 'https://github.com/quinn0823/quinn0823.github.io/edit/main/:path',
       text: 'Edit this page on GitHub'
-    },
-
-    footer: {
-      message: 'Licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 license</a>.',
-      copyright: `Copyright © ${copyrightYear} <a href="https://github.com/quinn0823" target="_blank">Jonathan Chiu</a>`
     },
 
     docFooter: {
@@ -51,6 +29,29 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
     lastUpdated: {
       text: 'Last updated'
-    },
+    }
   }
+})
+
+function nav(): DefaultTheme.NavItem[] {
+  return [
+    {
+      text: 'Projects',
+      items: [
+        { text: 'HTML', link: '/projects/html' },
+        { text: 'Python', link: '/projects/python' },
+        { text: 'Scratch', link: '/projects/scratch' }
+      ]
+    },
+    { text: 'Liu Yao (Six Lines)', link: '/liuyao' },
+    { text: 'Mian Xiang (face reading)', link: '/mianxiang' }
+  ]
+}
+
+function sidebarProjects(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: 'HTML', link: 'html' },
+    { text: 'Python', link: 'python' },
+    { text: 'Scratch', link: 'scratch' }
+  ]
 }

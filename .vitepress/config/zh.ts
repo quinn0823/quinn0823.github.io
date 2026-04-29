@@ -1,43 +1,21 @@
-import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
-import copyrightYear from './copyright-year'
+import { defineConfig, type DefaultTheme } from 'vitepress'
 
-export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
+export const zh = defineConfig({
+  lang: 'zh',
+
   title: '煊名',
   description: '嗨！我是煊名。',
 
   themeConfig: {
-    nav: [
-      {
-        text: '项目',
-        items: [
-          { text: 'HTML', link: '/zh/projects/html' },
-          { text: 'Python', link: '/zh/projects/python' },
-          { text: 'Scratch', link: '/zh/projects/scratch' }
-        ]
-      },
-      { text: '六爻', link: '/zh/liuyao' },
-      { text: '面相', link: '/zh/mianxiang' }
-    ],
+    nav: nav(),
 
     sidebar: {
-      '/zh/projects/': {
-        base: '/zh/projects/',
-        items: [
-          { text: 'HTML', link: 'html' },
-          { text: 'Python', link: 'python' },
-          { text: 'Scratch', link: 'scratch' }
-        ]
-      },
+      '/zh/projects/': { base: '/zh/projects/', items: sidebarProjects() },
     },
 
     editLink: {
       pattern: 'https://github.com/quinn0823/quinn0823.github.io/edit/main/:path',
       text: '在 GitHub 上编辑此页面'
-    },
-
-    footer: {
-      message: 'Licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 license</a>.',
-      copyright: `Copyright © ${copyrightYear} <a href="https://github.com/quinn0823" target="_blank">Jonathan Chiu</a>`
     },
 
     docFooter: {
@@ -51,6 +29,29 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
     lastUpdated: {
       text: '最后更新时间'
-    },
+    }
   }
+})
+
+function nav(): DefaultTheme.NavItem[] {
+  return [
+    {
+      text: '项目',
+      items: [
+        { text: 'HTML', link: '/zh/projects/html' },
+        { text: 'Python', link: '/zh/projects/python' },
+        { text: 'Scratch', link: '/zh/projects/scratch' }
+      ]
+    },
+    { text: '六爻', link: '/zh/liuyao' },
+    { text: '面相', link: '/zh/mianxiang' }
+  ]
+}
+
+function sidebarProjects(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: 'HTML', link: 'html' },
+    { text: 'Python', link: 'python' },
+    { text: 'Scratch', link: 'scratch' }
+  ]
 }
