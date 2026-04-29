@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
-import { enConfig } from './locals/en.mts'
-import { zhConfig } from './locals/zh.mts'
+import { enConfig } from '../locals/en.mts'
+import { zhConfig } from '../locals/zh.mts'
 
 export default defineConfig({
   rewrites: {
