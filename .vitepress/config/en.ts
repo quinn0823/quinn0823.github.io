@@ -43,8 +43,13 @@ function nav(): DefaultTheme.NavItem[] {
         { text: 'Scratch', link: '/projects/scratch' }
       ]
     },
-    { text: 'Liu Yao (Six Lines)', link: '/liuyao' },
-    { text: 'Mian Xiang (face reading)', link: '/mianxiang' }
+    {
+      text: 'Yi Jing (Book of Change)',
+      items: [
+        { text: 'Liu Yao (Six Lines)', link: '/yijing/liuyao' },
+        { text: 'Mian Xiang (face reading)', link: '/yijing/mianxiang' }
+      ]
+    }
   ]
 }
 

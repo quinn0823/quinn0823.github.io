@@ -43,8 +43,13 @@ function nav(): DefaultTheme.NavItem[] {
         { text: 'Scratch', link: '/zh/projects/scratch' }
       ]
     },
-    { text: '六爻', link: '/zh/liuyao' },
-    { text: '面相', link: '/zh/mianxiang' }
+    {
+      text: '易经',
+      items: [
+        { text: '六爻', link: '/zh/yijing/liuyao' },
+        { text: '面相', link: '/zh/yijing/mianxiang' }
+      ]
+    }
   ]
 }
 
