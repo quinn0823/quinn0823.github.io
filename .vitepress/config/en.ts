@@ -1,5 +1,5 @@
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
-import copyrightYear from './components/copyright-year.mts'
+import copyrightYear from './copyright-year'
 
 export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
   title: 'Jonathan Chiu',
