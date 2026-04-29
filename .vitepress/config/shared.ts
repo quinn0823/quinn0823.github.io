@@ -1,15 +1,17 @@
 import { defineConfig } from 'vitepress'
 
-const START_YEAR = 2026;
-const currentYear = new Date().getFullYear();
-let copyrightYear;
-if (currentYear === START_YEAR) {
-  copyrightYear = `${START_YEAR}`;
-} else if (currentYear === START_YEAR + 1) {
-  copyrightYear = `${START_YEAR}, ${currentYear}`;
-} else {
-  copyrightYear = `${START_YEAR}-${currentYear}`;
+function getCopyrightYear() {
+  const START_YEAR = 2026;
+  const currentYear = new Date().getFullYear();
+  if (currentYear === START_YEAR) {
+    return `${START_YEAR}`;
+  } else if (currentYear === START_YEAR + 1) {
+    return `${START_YEAR}, ${currentYear}`;
+  } else {
+    return `${START_YEAR}-${currentYear}`;
+  }
 }
+export const copyrightYear = getCopyrightYear();
 
 export const shared = defineConfig({
   rewrites: {
@@ -35,15 +37,10 @@ export const shared = defineConfig({
       { icon: 'github', link: 'https://github.com/quinn0823' }
     ],
 
-    footer: {
-      message: 'Licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 license</a>.',
-      copyright: `Copyright © ${copyrightYear} <a href="https://github.com/quinn0823" target="_blank">Jonathan Chiu</a>`
-    },
-
     search: {
       provider: 'local'
     },
 
     externalLinkIcon: true
-  },
+  }
 })

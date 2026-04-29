@@ -1,4 +1,5 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
+import { copyrightYear } from './shared'
 
 export const en = defineConfig({
   lang: 'en',
@@ -10,12 +11,17 @@ export const en = defineConfig({
     nav: nav(),
 
     sidebar: {
-      '/projects/': { base: '/projects/', items: sidebarProjects() },
+      '/projects/': { base: '/projects/', items: sidebarProjects() }
     },
 
     editLink: {
       pattern: 'https://github.com/quinn0823/quinn0823.github.io/edit/main/:path',
       text: 'Edit this page on GitHub'
+    },
+
+    footer: {
+      message: 'If you have the principles but lack the skills, you can still acquire the skills; if you have the skills but lack the principles, you will be limited to the skills alone.<br />Licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 license</a>.',
+      copyright: `Copyright © ${copyrightYear} <a href="https://github.com/quinn0823" target="_blank">Jonathan Chiu</a>`
     },
 
     docFooter: {

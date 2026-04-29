@@ -1,4 +1,5 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
+import { copyrightYear } from './shared'
 
 export const zh = defineConfig({
   lang: 'zh',
@@ -10,12 +11,17 @@ export const zh = defineConfig({
     nav: nav(),
 
     sidebar: {
-      '/zh/projects/': { base: '/zh/projects/', items: sidebarProjects() },
+      '/zh/projects/': { base: '/zh/projects/', items: sidebarProjects() }
     },
 
     editLink: {
       pattern: 'https://github.com/quinn0823/quinn0823.github.io/edit/main/:path',
       text: '在 GitHub 上编辑此页面'
+    },
+
+    footer: {
+      message: '有道无术，术尚可求；有术无道，止于术。<br />Licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 license</a>.',
+      copyright: `Copyright © ${copyrightYear} <a href="https://github.com/quinn0823" target="_blank">Jonathan Chiu</a>`
     },
 
     docFooter: {
