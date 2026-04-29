@@ -5,7 +5,7 @@ layout: home
 hero:
   name: Jonathan Chiu
   text: Hi! I'm Jonathan Chiu.
-  tagline: Developer, enthusiast of the I Ching and Traditional Chinese Medicine.
+  tagline: Developer, enthusiast of the Yi Jing (Book of Change).
   image: /le-flat-fill-blue-transparent.svg
   # actions:
   #   - theme: brand
