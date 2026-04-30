@@ -20,7 +20,7 @@ export const en = defineConfig({
     },
 
     footer: {
-      message: 'If you have the principles but lack the skills, you can still acquire the skills; if you have the skills but lack the principles, you will be limited to the skills alone.<br />Licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 license</a>.',
+      message: 'With principles but no techniques, techniques can be learned; with techniques but no principles, one goes no further than technique.<br />Licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 license</a>.',
       copyright: `Copyright © ${copyrightYear} <a href="https://github.com/quinn0823" target="_blank">Jonathan Chiu</a>`
     },
 
