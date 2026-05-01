@@ -52,17 +52,12 @@ function nav(): DefaultTheme.NavItem[] {
 
 function sidebarProjects(): DefaultTheme.SidebarItem[] {
   return [
+    { text: 'Overview', link: 'scratch' },
     {
-      text: 'Scratch',
+      text: 'OS',
       base: '/projects/scratch/',
-      link: '/',
       items: [
-        {
-          text: 'OS',
-          items: [
-            { text: 'Earth OS', link: '/earth-os' }
-          ]
-        }
+        { text: 'Earth OS', link: 'earth-os' }
       ]
     }
   ]
