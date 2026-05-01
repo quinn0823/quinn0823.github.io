@@ -41,28 +41,29 @@ export const zh = defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
   return [
-    // {
-    //   text: '项目',
-    //   items: [
-    //     { text: 'HTML', link: '/zh/projects/html' },
-    //     { text: 'Python', link: '/zh/projects/python' },
-    //     { text: 'Scratch', link: '/zh/projects/scratch' }
-    //   ]
-    // },
-    // {
-    //   text: '易经',
-    //   items: [
-    //     { text: '六爻', link: '/zh/yijing/liuyao' },
-    //     { text: '面相', link: '/zh/yijing/mianxiang' }
-    //   ]
-    // }
+    {
+      text: '项目',
+      items: [
+        { text: 'Scratch', link: '/zh/projects/scratch' }
+      ]
+    }
   ]
 }
 
 function sidebarProjects(): DefaultTheme.SidebarItem[] {
   return [
-    { text: 'HTML', link: 'html' },
-    { text: 'Python', link: 'python' },
-    { text: 'Scratch', link: 'scratch' }
+    {
+      text: 'Scratch',
+      base: '/zh/projects/scratch/',
+      link: '/',
+      items: [
+        {
+          text: '操作系统',
+          items: [
+            { text: 'Earth OS', link: '/earth-os' }
+          ]
+        }
+      ]
+    }
   ]
 }

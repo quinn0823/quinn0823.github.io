@@ -41,28 +41,29 @@ export const en = defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
   return [
-    // {
-    //   text: 'Projects',
-    //   items: [
-    //     { text: 'HTML', link: '/projects/html' },
-    //     { text: 'Python', link: '/projects/python' },
-    //     { text: 'Scratch', link: '/projects/scratch' }
-    //   ]
-    // },
-    // {
-    //   text: 'Yi Jing (Book of Change)',
-    //   items: [
-    //     { text: 'Liu Yao (Six Lines)', link: '/yijing/liuyao' },
-    //     { text: 'Mian Xiang (face reading)', link: '/yijing/mianxiang' }
-    //   ]
-    // }
+    {
+      text: 'Projects',
+      items: [
+        { text: 'Scratch', link: '/projects/scratch' }
+      ]
+    }
   ]
 }
 
 function sidebarProjects(): DefaultTheme.SidebarItem[] {
   return [
-    { text: 'HTML', link: 'html' },
-    { text: 'Python', link: 'python' },
-    { text: 'Scratch', link: 'scratch' }
+    {
+      text: 'Scratch',
+      base: '/projects/scratch/',
+      link: '/',
+      items: [
+        {
+          text: 'OS',
+          items: [
+            { text: 'Earth OS', link: '/earth-os' }
+          ]
+        }
+      ]
+    }
   ]
 }
