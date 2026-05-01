@@ -57,7 +57,8 @@ function sidebarProjects(): DefaultTheme.SidebarItem[] {
       text: 'OS',
       base: '/projects/scratch/',
       items: [
-        { text: 'Earth OS', link: 'earth-os' }
+        { text: 'Earth OS', link: 'earth-os' },
+        { text: 'Earth OS ʙᴇᴛᴀ', link: 'earth-os-beta' }
       ]
     }
   ]
