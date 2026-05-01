@@ -41,21 +41,21 @@ export const zh = defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
   return [
-    {
-      text: '项目',
-      items: [
-        { text: 'HTML', link: '/zh/projects/html' },
-        { text: 'Python', link: '/zh/projects/python' },
-        { text: 'Scratch', link: '/zh/projects/scratch' }
-      ]
-    },
-    {
-      text: '易经',
-      items: [
-        { text: '六爻', link: '/zh/yijing/liuyao' },
-        { text: '面相', link: '/zh/yijing/mianxiang' }
-      ]
-    }
+    // {
+    //   text: '项目',
+    //   items: [
+    //     { text: 'HTML', link: '/zh/projects/html' },
+    //     { text: 'Python', link: '/zh/projects/python' },
+    //     { text: 'Scratch', link: '/zh/projects/scratch' }
+    //   ]
+    // },
+    // {
+    //   text: '易经',
+    //   items: [
+    //     { text: '六爻', link: '/zh/yijing/liuyao' },
+    //     { text: '面相', link: '/zh/yijing/mianxiang' }
+    //   ]
+    // }
   ]
 }
 
