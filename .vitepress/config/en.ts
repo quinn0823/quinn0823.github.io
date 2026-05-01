@@ -11,7 +11,7 @@ export const en = defineConfig({
     nav: nav(),
 
     sidebar: {
-      '/projects/': { base: '/projects/', items: sidebarProjects() }
+      '/projects/scratch/': { base: '/projects/scratch/', items: sidebarProjectsScratch() }
     },
 
     editLink: {
@@ -50,12 +50,11 @@ function nav(): DefaultTheme.NavItem[] {
   ]
 }
 
-function sidebarProjects(): DefaultTheme.SidebarItem[] {
+function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
   return [
     { text: 'Overview', link: 'overview' },
     {
       text: 'OS',
-      base: '/projects/scratch/',
       items: [
         { text: 'Earth OS', link: 'earth-os' },
         { text: 'Earth OS ʙᴇᴛᴀ', link: 'earth-os-beta' }
@@ -63,7 +62,6 @@ function sidebarProjects(): DefaultTheme.SidebarItem[] {
     },
     {
       text: 'Games',
-      base: '/projects/scratch/',
       items: [
         { text: '☁ Don\'t get out of the white area!', link: 'don-t-get-out-of-the-white-area' }
       ]
