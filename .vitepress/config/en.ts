@@ -60,6 +60,13 @@ function sidebarProjects(): DefaultTheme.SidebarItem[] {
         { text: 'Earth OS', link: 'earth-os' },
         { text: 'Earth OS ʙᴇᴛᴀ', link: 'earth-os-beta' }
       ]
+    },
+    {
+      text: 'Games',
+      base: '/projects/scratch/',
+      items: [
+        { text: '☁ Don\'t get out of the white area!', link: 'don-t-get-out-of-the-white-area' }
+      ]
     }
   ]
 }
