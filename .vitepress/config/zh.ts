@@ -21,7 +21,7 @@ export const zh = defineConfig({
 
     footer: {
       message: '有道无术，术尚可求；有术无道，止于术。<br />Licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0 license</a>.',
-      copyright: `Copyright © ${copyrightYear} <a href="https://github.com/quinn0823" target="_blank">Jonathan Chiu</a>`
+      copyright: `Copyright © ${copyrightYear} Jonathan Chiu`
     },
 
     docFooter: {
