@@ -16,7 +16,7 @@ https://scratch.mit.edu/projects/413381564
 ## 描述
 
 ::: info Remix Credit
-感谢原作[Earth OS ʙᴇᴛᴀ](https://scratch.mit.edu/projects/410305536)的作者[Earthworm-Tutor](https://scratch.mit.edu/users/Earthworm-Tutor)。
+感谢原作 [Earth OS ʙᴇᴛᴀ](https://scratch.mit.edu/projects/410305536) 的作者 [Earthworm-Tutor](https://scratch.mit.edu/users/Earthworm-Tutor)。
 :::
 
 ::: code-group
@@ -100,4 +100,4 @@ Source of inspiration: Microsoft Windows
 
 :::
 
-© 2020年10月03日
+© 2020 年 10 月 03 日
