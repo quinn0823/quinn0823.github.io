@@ -44,7 +44,7 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: '项目',
       items: [
-        { text: 'Scratch', link: '/zh/projects/scratch' }
+        { text: 'Scratch', link: '/zh/projects/scratch/overview' }
       ]
     }
   ]
@@ -52,7 +52,7 @@ function nav(): DefaultTheme.NavItem[] {
 
 function sidebarProjects(): DefaultTheme.SidebarItem[] {
   return [
-    { text: 'Overview', link: 'scratch' },
+    { text: 'Overview', link: 'overview' },
     {
       text: '操作系统',
       base: '/zh/projects/scratch/',

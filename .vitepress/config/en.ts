@@ -44,7 +44,7 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: 'Projects',
       items: [
-        { text: 'Scratch', link: '/projects/scratch' }
+        { text: 'Scratch', link: '/projects/scratch/overview' }
       ]
     }
   ]
@@ -52,7 +52,7 @@ function nav(): DefaultTheme.NavItem[] {
 
 function sidebarProjects(): DefaultTheme.SidebarItem[] {
   return [
-    { text: 'Overview', link: 'scratch' },
+    { text: 'Overview', link: 'overview' },
     {
       text: 'OS',
       base: '/projects/scratch/',
