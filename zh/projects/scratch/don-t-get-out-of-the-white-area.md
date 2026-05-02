@@ -16,7 +16,7 @@ https://scratch.mit.edu/projects/416589271
 ## 描述
 
 ::: info Remix Credit
-感谢原作 [别出白线](https://scratch.mit.edu/projects/400871131) 的作者 [gitignore](https://scratch.mit.edu/users/gitignore)。
+感谢原作[别出白线](https://scratch.mit.edu/projects/400871131)的作者 [gitignore](https://scratch.mit.edu/users/gitignore)。
 :::
 
 ::: code-group
