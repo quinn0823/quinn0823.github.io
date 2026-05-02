@@ -73,6 +73,12 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       items: [
         { text: '☁ Cloud Shared Artboard（☁ 云共享画板）', link: 'cloud-shared-artboard' }
       ]
+    },
+    {
+      text: 'Music',
+      items: [
+        { text: '3.14 - A Song Of π (2500 Decimal Places)（3.14 - π 之歌（小数点后 2500 位））', link: '3-14-a-song-of-2500-decimal-places' }
+      ]
     }
   ]
 }
