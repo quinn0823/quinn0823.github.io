@@ -68,7 +68,7 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
     {
       text: 'Tools',
       items: [
-        { text: '小蚯同学 - 您身边的中文人工智能助手 (Remastered 2026) (Xiao Qiu - Your Personal Chinese AI Assistant (Remastered 2026))', link: 'xiaoqiutongxue' },
+        { text: '小蚯同学 - 您身边的中文人工智能助手 (Remastered 2026)', link: 'xiaoqiutongxue' },
         { text: 'Secret Converter', link: 'secret-converter' }
       ]
     },

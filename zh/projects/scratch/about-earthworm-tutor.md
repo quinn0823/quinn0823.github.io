@@ -1,4 +1,4 @@
-# About Earthworm-Tutor（关于 Earthworm-Tutor）<Badge type="info" text="画笔" />
+# About Earthworm-Tutor <Badge type="info" text="画笔" />
 
 ![](/projects/scratch/409292298_480x360.png)
 

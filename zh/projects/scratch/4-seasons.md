@@ -1,4 +1,4 @@
-# 4 Seasons（四季）
+# 4 Seasons
 
 ![](/projects/scratch/410051645_480x360.png)
 

@@ -1,4 +1,4 @@
-# ☁ Don't get out of the white area!（☁ 不要离开白色区域！）<Badge type="info" text="云变量" />
+# ☁ Don't get out of the white area! <Badge type="info" text="云变量" />
 
 ![](/projects/scratch/416589271_480x360.png)
 

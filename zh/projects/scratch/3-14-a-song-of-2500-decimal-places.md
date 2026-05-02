@@ -1,4 +1,4 @@
-# 3.14 - A Song Of π (2500 Decimal Places)（3.14 - π 之歌（小数点后 2500 位））<Badge type="info" text="音乐" />
+# 3.14 - A Song Of π (2500 Decimal Places) <Badge type="info" text="音乐" />
 
 ![](/projects/scratch/410036839_480x360.png)
 

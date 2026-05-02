@@ -19,5 +19,5 @@
 
 ![](/projects/scratch/409291451_480x360.png)
 
-- [About Little-Earthworm](about-little-earthworm)（关于 Little-Earthworm）
-- [About Earthworm-Tutor](about-earthworm-tutor)（关于 Earthworm-Tutor）
+- [About Little-Earthworm](about-little-earthworm)
+- [About Earthworm-Tutor](about-earthworm-tutor)

@@ -1,4 +1,4 @@
-# Secret Converter（秘密转换器）<Badge type="info" text="翻译" />
+# Secret Converter <Badge type="info" text="翻译" />
 
 ![](/projects/scratch/380777230_480x360.png)
 

@@ -1,4 +1,4 @@
-# About Little-Earthworm（关于 Little-Earthworm）<Badge type="info" text="画笔" />
+# About Little-Earthworm <Badge type="info" text="画笔" />
 
 ![](/projects/scratch/409291451_480x360.png)
 

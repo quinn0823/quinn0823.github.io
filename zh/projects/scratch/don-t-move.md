@@ -1,4 +1,4 @@
-# ☁ Don't move!（☁ 不要动！）<Badge type="info" text="视频侦测" /> <Badge type="info" text="云变量" />
+# ☁ Don't move! <Badge type="info" text="视频侦测" /> <Badge type="info" text="云变量" />
 
 ![](/projects/scratch/414137279_480x360.png)
 

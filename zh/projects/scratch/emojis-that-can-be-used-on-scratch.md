@@ -1,4 +1,4 @@
-# Emojis That Can Be Used On Scratch（Scratch 上可以使用的表情符号）
+# Emojis That Can Be Used On Scratch
 
 ![](/projects/scratch/419850174_480x360.png)
 

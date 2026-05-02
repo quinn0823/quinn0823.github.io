@@ -69,46 +69,46 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       text: '工具',
       items: [
         { text: '小蚯同学 - 您身边的中文人工智能助手 (Remastered 2026)', link: 'xiaoqiutongxue' },
-        { text: 'Secret Converter（秘密转换器）', link: 'secret-converter' }
+        { text: 'Secret Converter', link: 'secret-converter' }
       ]
     },
     {
       text: '游戏',
       items: [
-        { text: '☁ Don\'t get out of the white area!（☁ 不要离开白色区域！）', link: 'don-t-get-out-of-the-white-area' },
-        { text: '☁ Don\'t move!（☁ 不要动！）', link: 'don-t-move' },
-        { text: '☁ Don\'t make a sound!（☁ 不要出声！）', link: 'don-t-make-a-sound' }
+        { text: '☁ Don\'t get out of the white area!', link: 'don-t-get-out-of-the-white-area' },
+        { text: '☁ Don\'t move!', link: 'don-t-move' },
+        { text: '☁ Don\'t make a sound!', link: 'don-t-make-a-sound' }
       ]
     },
     {
       text: '艺术',
       items: [
-        { text: '☁ Cloud Shared Artboard（☁ 云共享画板）', link: 'cloud-shared-artboard' }
+        { text: '☁ Cloud Shared Artboard', link: 'cloud-shared-artboard' }
       ]
     },
     {
       text: '音乐',
       items: [
-        { text: '3.14 - A Song Of π (2500 Decimal Places)（3.14 - π 之歌（小数点后 2500 位））', link: '3-14-a-song-of-2500-decimal-places' }
+        { text: '3.14 - A Song Of π (2500 Decimal Places)', link: '3-14-a-song-of-2500-decimal-places' }
       ]
     },
     {
       text: '动画',
       items: [
-        { text: '4 Seasons（四季）', link: '4-seasons' }
+        { text: '4 Seasons', link: '4-seasons' }
       ]
     },
     {
       text: '教程',
       items: [
-        { text: 'Emojis That Can Be Used On Scratch（Scratch 上可以使用的表情符号）', link: 'emojis-that-can-be-used-on-scratch' }
+        { text: 'Emojis That Can Be Used On Scratch', link: 'emojis-that-can-be-used-on-scratch' }
       ]
     },
     {
       text: '介绍',
       items: [
-        { text: 'About Little-Earthworm（关于 Little-Earthworm）', link: 'about-little-earthworm' },
-        { text: 'About Earthworm-Tutor（关于 Earthworm-Tutor）', link: 'about-earthworm-tutor' }
+        { text: 'About Little-Earthworm', link: 'about-little-earthworm' },
+        { text: 'About Earthworm-Tutor', link: 'about-earthworm-tutor' }
       ]
     }
   ]

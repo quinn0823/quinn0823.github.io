@@ -1,4 +1,4 @@
-# ☁ Don't make a sound!（☁ 不要出声！）<Badge type="info" text="云变量" />
+# ☁ Don't make a sound! <Badge type="info" text="云变量" />
 
 ![](/projects/scratch/415955109_480x360.png)
 

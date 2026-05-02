@@ -1,4 +1,4 @@
-# ☁ Cloud Shared Artboard（☁ 云共享画板）<Badge type="info" text="画笔" /> <Badge type="info" text="云变量" />
+# ☁ Cloud Shared Artboard <Badge type="info" text="画笔" /> <Badge type="info" text="云变量" />
 
 ![](/projects/scratch/417509515_480x360.png)
 
