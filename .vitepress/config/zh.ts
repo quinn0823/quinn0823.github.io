@@ -52,7 +52,7 @@ function nav(): DefaultTheme.NavItem[] {
 
 function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
   return [
-    { text: 'Overview', link: 'overview' },
+    { text: '概述', link: 'overview' },
     {
       text: '操作系统',
       items: [
