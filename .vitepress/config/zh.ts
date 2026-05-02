@@ -75,7 +75,7 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       ]
     },
     {
-      text: 'Music',
+      text: '音乐',
       items: [
         { text: '3.14 - A Song Of π (2500 Decimal Places)（3.14 - π 之歌（小数点后 2500 位））', link: '3-14-a-song-of-2500-decimal-places' }
       ]
