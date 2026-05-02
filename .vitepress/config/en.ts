@@ -62,6 +62,13 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       ]
     },
     {
+      text: 'Tools',
+      items: [
+        { text: '小蚯同学 - 您身边的中文人工智能助手 (Remastered 2026) (Xiao Qiu - Your Personal Chinese AI Assistant (Remastered 2026))', link: 'xiaoqiutongxue' },
+        { text: 'Secret Converter', link: 'secret-converter' }
+      ]
+    },
+    {
       text: 'Games',
       items: [
         { text: '☁ Don\'t get out of the white area!', link: 'don-t-get-out-of-the-white-area' },
@@ -85,12 +92,6 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       text: 'Animations',
       items: [
         { text: '4 Seasons', link: '4-seasons' }
-      ]
-    },
-    {
-      text: 'Tools',
-      items: [
-        { text: 'Secret Converter', link: 'secret-converter' }
       ]
     },
     {
