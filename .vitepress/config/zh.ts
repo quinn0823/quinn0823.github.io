@@ -103,6 +103,13 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'Emojis That Can Be Used On Scratch（Scratch 上可以使用的表情符号）', link: 'emojis-that-can-be-used-on-scratch' }
       ]
+    },
+    {
+      text: '介绍',
+      items: [
+        { text: 'About Little-Earthworm（关于 Little-Earthworm）', link: 'about-little-earthworm' },
+        { text: 'About Earthworm-Tutor（关于 Earthworm-Tutor）', link: 'about-earthworm-tutor' }
+      ]
     }
   ]
 }
