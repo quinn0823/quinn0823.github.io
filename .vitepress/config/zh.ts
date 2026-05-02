@@ -45,7 +45,11 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: '项目',
       items: [
-        { text: 'Scratch', link: '/zh/projects/scratch/overview' }
+        {
+          text: '…上的',items: [
+            { text: 'Scratch', link: '/zh/projects/scratch/overview' }
+          ]
+        }
       ]
     }
   ]
