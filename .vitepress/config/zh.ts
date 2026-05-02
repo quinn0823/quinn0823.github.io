@@ -79,6 +79,12 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       items: [
         { text: '3.14 - A Song Of π (2500 Decimal Places)（3.14 - π 之歌（小数点后 2500 位））', link: '3-14-a-song-of-2500-decimal-places' }
       ]
+    },
+    {
+      text: '工具',
+      items: [
+        { text: 'Secret Converter（秘密转换器）', link: 'secret-converter' }
+      ]
     }
   ]
 }
