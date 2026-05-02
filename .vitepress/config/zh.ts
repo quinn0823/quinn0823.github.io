@@ -85,6 +85,12 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'Secret Converter（秘密转换器）', link: 'secret-converter' }
       ]
+    },
+    {
+      text: '教程',
+      items: [
+        { text: 'Emojis That Can Be Used On Scratch（Scratch 上可以使用的表情符号）', link: 'emojis-that-can-be-used-on-scratch' }
+      ]
     }
   ]
 }
