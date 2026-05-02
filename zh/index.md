@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 煊名
   text: 嗨！我是煊名。
-  tagline: 开发者，易经爱好者。
+  # tagline: 开发者，易经爱好者。
   image: /le-flat-fill-blue-transparent.svg
   # actions:
   #   - theme: brand
