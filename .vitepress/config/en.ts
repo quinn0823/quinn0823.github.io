@@ -30,6 +30,7 @@ export const en = defineConfig({
     },
 
     outline: {
+      level: 'deep',
       label: 'On this page'
     },
 
