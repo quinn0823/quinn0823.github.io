@@ -92,12 +92,12 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
         { text: '3.14 - A Song Of π (2500 Decimal Places)', link: '3-14-a-song-of-2500-decimal-places' }
       ]
     },
-    {
-      text: 'Animations',
-      items: [
-        { text: '4 Seasons', link: '4-seasons' }
-      ]
-    },
+    // {
+    //   text: 'Animations',
+    //   items: [
+    //     { text: '4 Seasons', link: '4-seasons' }
+    //   ]
+    // },
     {
       text: 'Tutorials',
       items: [
