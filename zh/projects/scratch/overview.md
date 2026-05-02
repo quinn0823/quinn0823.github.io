@@ -14,3 +14,10 @@
 ### [小蚯同学 - 您身边的中文人工智能助手 (Remastered 2026)](xiaoqiutongxue) <Badge type="info" text="文本朗读" /> <Badge type="info" text="翻译" />
 
 ![](/projects/scratch/377632108_480x360.png)
+
+## “关于我”项目
+
+![](/projects/scratch/409291451_480x360.png)
+
+- [About Little-Earthworm](about-little-earthworm)（关于 Little-Earthworm）
+- [About Earthworm-Tutor](about-earthworm-tutor)（关于 Earthworm-Tutor）

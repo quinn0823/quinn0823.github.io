@@ -14,3 +14,10 @@
 ### [小蚯同学 - 您身边的中文人工智能助手 (Remastered 2026) (Xiao Qiu - Your Personal Chinese AI Assistant (Remastered 2026))](xiaoqiutongxue) <Badge type="info" text="Text to Speech" /> <Badge type="info" text="Translate" />
 
 ![](/projects/scratch/377632108_480x360.png)
+
+## "About Me" Projects
+
+![](/projects/scratch/409291451_480x360.png)
+
+- [About Little-Earthworm](about-little-earthworm)
+- [About Earthworm-Tutor](about-earthworm-tutor)
