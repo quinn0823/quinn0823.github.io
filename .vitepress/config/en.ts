@@ -59,7 +59,7 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
   return [
     { text: 'Overview', link: 'overview' },
     {
-      text: 'OS',
+      text: 'Operating Systems',
       items: [
         { text: 'Earth OS', link: 'earth-os' },
         { text: 'Earth OS ʙᴇᴛᴀ', link: 'earth-os-beta' }
@@ -81,7 +81,7 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       ]
     },
     {
-      text: 'Arts',
+      text: 'Art',
       items: [
         { text: '☁ Cloud Shared Artboard', link: 'cloud-shared-artboard' }
       ]
