@@ -63,7 +63,7 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
     {
       text: '游戏',
       items: [
-        { text: '☁ Don\'t get out of the white area!', link: 'don-t-get-out-of-the-white-area' }
+        { text: '☁ Don\'t get out of the white area!（☁ 不要离开白色区域！）', link: 'don-t-get-out-of-the-white-area' }
       ]
     }
   ]
