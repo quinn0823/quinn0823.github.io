@@ -67,6 +67,12 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
         { text: '☁ Don\'t move!', link: 'don-t-move' },
         { text: '☁ Don\'t make a sound!', link: 'don-t-make-a-sound' }
       ]
+    },
+    {
+      text: 'Arts',
+      items: [
+        { text: '☁ Cloud Shared Artboard', link: 'cloud-shared-artboard' }
+      ]
     }
   ]
 }

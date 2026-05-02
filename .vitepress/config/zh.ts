@@ -67,6 +67,12 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
         { text: '☁ Don\'t move!（☁ 别动！）', link: 'don-t-move' },
         { text: '☁ Don\'t make a sound!（☁ 不要出声！）', link: 'don-t-make-a-sound' }
       ]
+    },
+    {
+      text: '艺术',
+      items: [
+        { text: '☁ Cloud Shared Artboard（☁ 云共享画板）', link: 'cloud-shared-artboard' }
+      ]
     }
   ]
 }
