@@ -64,7 +64,8 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       text: 'Games',
       items: [
         { text: '☁ Don\'t get out of the white area!', link: 'don-t-get-out-of-the-white-area' },
-        { text: '☁ Don\'t move!', link: 'don-t-move' }
+        { text: '☁ Don\'t move!', link: 'don-t-move' },
+        { text: '☁ Don\'t make a sound!', link: 'don-t-make-a-sound' }
       ]
     }
   ]
