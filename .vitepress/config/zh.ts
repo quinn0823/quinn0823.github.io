@@ -81,6 +81,12 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       ]
     },
     {
+      text: '动画',
+      items: [
+        { text: '4 Seasons（四季）', link: '4-seasons' }
+      ]
+    },
+    {
       text: '工具',
       items: [
         { text: 'Secret Converter（秘密转换器）', link: 'secret-converter' }

@@ -81,6 +81,12 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       ]
     },
     {
+      text: 'Animations',
+      items: [
+        { text: '4 Seasons', link: '4-seasons' }
+      ]
+    },
+    {
       text: 'Tools',
       items: [
         { text: 'Secret Converter', link: 'secret-converter' }
