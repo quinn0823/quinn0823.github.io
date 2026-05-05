@@ -51,6 +51,15 @@ function nav(): DefaultTheme.NavItem[] {
       text: '项目',
       items: [
         {
+          text: '适用于 SCS 卡车模拟游戏',
+          items: [
+            {
+              text: 'Apple Siri 语音导航',
+              link: '/zh/projects/truck-simulator/apple-siri-voice-navigation/overview'
+            }
+          ]
+        },
+        {
           text: '…上的',
           items: [{ text: 'Scratch', link: '/zh/projects/scratch/overview' }]
         }

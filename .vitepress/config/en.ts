@@ -50,6 +50,15 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: 'Projects',
       items: [
+{
+          text: 'For SCS Truck Simulator Games',
+          items: [
+            {
+              text: 'Apple Siri Voice Navigation',
+              link: '/projects/truck-simulator/apple-siri-voice-navigation/overview'
+            }
+          ]
+        },
         {
           text: 'On...',
           items: [{ text: 'Scratch', link: '/projects/scratch/overview' }]
