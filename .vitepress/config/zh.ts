@@ -75,7 +75,8 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarProjectsTruckSimulatorAppleSiriVoiceNavigation(): DefaultTheme.SidebarItem[] {
   return [
     { text: '概述', link: 'overview' },
-    { text: '声音', link: 'voices' }
+    { text: '声音', link: 'voices' },
+    { text: '兼容性', link: 'compatibility' }
   ]
 }
 
