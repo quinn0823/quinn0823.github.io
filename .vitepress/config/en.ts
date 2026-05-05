@@ -11,6 +11,10 @@ export const en = defineConfig({
     nav: nav(),
 
     sidebar: {
+      '/projects/truck-simulator/apple-siri-voice-navigation/': {
+        base: '/projects/truck-simulator/apple-siri-voice-navigation/',
+        items: sidebarProjectsTruckSimulatorAppleSiriVoiceNavigation()
+      },
       '/projects/scratch/': {
         base: '/projects/scratch/',
         items: sidebarProjectsScratch()
@@ -50,7 +54,7 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: 'Projects',
       items: [
-{
+        {
           text: 'For SCS Truck Simulator Games',
           items: [
             {
@@ -65,6 +69,13 @@ function nav(): DefaultTheme.NavItem[] {
         }
       ]
     }
+  ]
+}
+
+function sidebarProjectsTruckSimulatorAppleSiriVoiceNavigation(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: 'Overview', link: 'overview' },
+    { text: 'Voices', link: 'voices' }
   ]
 }
 

@@ -11,6 +11,10 @@ export const zh = defineConfig({
     nav: nav(),
 
     sidebar: {
+      '/zh/projects/truck-simulator/apple-siri-voice-navigation/': {
+        base: '/zh/projects/truck-simulator/apple-siri-voice-navigation/',
+        items: sidebarProjectsTruckSimulatorAppleSiriVoiceNavigation()
+      },
       '/zh/projects/scratch/': {
         base: '/zh/projects/scratch/',
         items: sidebarProjectsScratch()
@@ -65,6 +69,13 @@ function nav(): DefaultTheme.NavItem[] {
         }
       ]
     }
+  ]
+}
+
+function sidebarProjectsTruckSimulatorAppleSiriVoiceNavigation(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: '概述', link: 'overview' },
+    { text: '声音', link: 'voices' }
   ]
 }
 
