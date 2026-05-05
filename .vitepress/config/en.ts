@@ -76,7 +76,8 @@ function sidebarProjectsTruckSimulatorAppleSiriVoiceNavigation(): DefaultTheme.S
   return [
     { text: 'Overview', link: 'overview' },
     { text: 'Voices', link: 'voices' },
-    { text: 'Compatibility', link: 'compatibility' }
+    { text: 'Compatibility', link: 'compatibility' },
+    { text: 'Download', link: 'download' }
   ]
 }
 
