@@ -1,17 +1,17 @@
 import { defineConfig } from 'vitepress'
 
 function getCopyrightYear() {
-  const START_YEAR = 2026;
-  const currentYear = new Date().getFullYear();
+  const START_YEAR = 2026
+  const currentYear = new Date().getFullYear()
   if (currentYear === START_YEAR) {
-    return `${START_YEAR}`;
+    return `${START_YEAR}`
   } else if (currentYear === START_YEAR + 1) {
-    return `${START_YEAR}, ${currentYear}`;
+    return `${START_YEAR}, ${currentYear}`
   } else {
-    return `${START_YEAR}-${currentYear}`;
+    return `${START_YEAR}-${currentYear}`
   }
 }
-export const copyrightYear = getCopyrightYear();
+export const copyrightYear = getCopyrightYear()
 
 export const shared = defineConfig({
   rewrites: {
@@ -26,16 +26,12 @@ export const shared = defineConfig({
     hostname: 'https://quinn0823.github.io'
   },
 
-  head: [
-    ['link', { rel: 'icon', href: '/le-flat-fill-blue-transparent.svg' }]
-  ],
+  head: [['link', { rel: 'icon', href: '/le-flat-fill-blue-transparent.svg' }]],
 
   themeConfig: {
-    logo: { src: '/le-flat-fill-blue-transparent.svg'},
+    logo: { src: '/le-flat-fill-blue-transparent.svg' },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/quinn0823' }
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/quinn0823' }],
 
     search: {
       provider: 'local'
