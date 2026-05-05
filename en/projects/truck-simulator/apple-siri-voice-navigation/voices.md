@@ -1,3 +1,7 @@
+---
+title: Voices
+---
+
 # Voices [94+ Voices in 24+ Languages] {#voices}
 
 Supports all 14 languages supported by the game.
