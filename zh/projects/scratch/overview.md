@@ -7,11 +7,15 @@
 
 ## 精选作品 {#featured-projects}
 
-### [Earth OS](earth-os) <Badge type="info" text="视频侦测" /> <Badge type="info" text="云变量" /> {#earth-os}
+### Earth OS <Badge type="info" text="视频侦测" /> <Badge type="info" text="云变量" /> {#earth-os}
+
+https://scratch.mit.edu/projects/413381564
 
 ![](/projects/scratch/413381564_480x360.png)
 
-### [小蚯同学 - 您身边的中文人工智能助手 (Remastered 2026)](xiaoqiutongxue) <Badge type="info" text="文本朗读" /> <Badge type="info" text="翻译" /> {#xiaoqiutongxue}
+### 小蚯同学 - 您身边的中文人工智能助手 (Remastered 2026) <Badge type="info" text="文本朗读" /> <Badge type="info" text="翻译" /> {#xiaoqiutongxue}
+
+https://scratch.mit.edu/projects/377632108
 
 ![](/projects/scratch/377632108_480x360.png)
 
@@ -19,5 +23,5 @@
 
 ![](/projects/scratch/409291451_480x360.png)
 
-- [About Little-Earthworm](about-little-earthworm)
-- [About Earthworm-Tutor](about-earthworm-tutor)
+- [About Little-Earthworm](https://scratch.mit.edu/projects/409291451)
+- [About Earthworm-Tutor](https://scratch.mit.edu/projects/409292298)
