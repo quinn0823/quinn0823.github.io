@@ -7,23 +7,24 @@
 https://scratch.mit.edu/projects/415955109
 
 ::: details 嵌入网页
-``` html
+
+```html
 <iframe src="https://scratch.mit.edu/projects/415955109/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 ```
-:::
 
+:::
 
 ## 描述
 
 ::: code-group
 
-``` text [操作说明]
+```text [操作说明]
 Click [Green Flag] to Begin
 
 Don't make a sound! (If you make a sound then you will be Failed)
 ```
 
-``` text [备注与鸣谢]
+```text [备注与鸣谢]
 Please Leave Your ❤️& ⭐️!
 ```
 

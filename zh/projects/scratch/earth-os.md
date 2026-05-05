@@ -7,11 +7,12 @@
 https://scratch.mit.edu/projects/413381564
 
 ::: details 嵌入网页
-``` html
+
+```html
 <iframe src="https://scratch.mit.edu/projects/413381564/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 ```
-:::
 
+:::
 
 ## 描述
 
@@ -21,7 +22,7 @@ https://scratch.mit.edu/projects/413381564
 
 ::: code-group
 
-``` text [操作说明]
+```text [操作说明]
 Welcome to Earth OS!
 
 It can do a lot of things, such as looking in the mirror , listening to music, accessing the Internet... ! It also supports password secrecy OS!
@@ -54,7 +55,7 @@ e.g. ㏒₂8=lb8=3 (2³=8)
 Control the black ball, avoid various obstacles, and reach the end point, which is the red ball
 ```
 
-``` text [备注与鸣谢]
+```text [备注与鸣谢]
 ⭐️ New apps, New features! ⭐️
 ▶️ Add game ☁ Don't get out of the white area!
 

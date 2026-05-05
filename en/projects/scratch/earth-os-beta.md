@@ -7,17 +7,18 @@
 https://scratch.mit.edu/projects/410305536
 
 ::: details Embed Link
-``` html
+
+```html
 <iframe src="https://scratch.mit.edu/projects/410305536/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 ```
-:::
 
+:::
 
 ## Description
 
 ::: code-group
 
-``` text [Instructions]
+```text [Instructions]
 Welcome to Earth OS (1.0) ʙᴇᴛᴀ !
 
 This is the 1st Earth OS Series version, it can do a lot of things, such as looking in the mirror , listening to music, accessing the Internet... ! It also supports password secrecy OS!
@@ -46,7 +47,7 @@ Antilogarithm is the answer of power;
 e.g. ㏒₂8=lb8=3 (2³=8)
 ```
 
-``` text [Notes and Credits]
+```text [Notes and Credits]
 ⭐️ New OS, New experience! ⭐️
 ▶️ Updated the Change decimals to Fractions and Logarithm calculator!
 

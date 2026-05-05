@@ -7,23 +7,24 @@
 https://scratch.mit.edu/projects/409291451
 
 ::: details Embed Link
-``` html
+
+```html
 <iframe src="https://scratch.mit.edu/projects/409291451/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 ```
-:::
 
+:::
 
 ## Description
 
 ::: code-group
 
-``` text [Instructions]
+```text [Instructions]
 Click on the [Green flag] to begin
 
 Click the screen to continue
 ```
 
-``` text [Notes and Credits]
+```text [Notes and Credits]
 About Earthworm-Tutor
 https://scratch.mit.edu/projects/409292298
 ```

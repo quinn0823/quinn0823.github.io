@@ -7,17 +7,18 @@
 https://scratch.mit.edu/projects/380777230
 
 ::: details Embed Link
-``` html
+
+```html
 <iframe src="https://scratch.mit.edu/projects/380777230/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 ```
-:::
 
+:::
 
 ## Description
 
 ::: code-group
 
-``` text [Instructions]
+```text [Instructions]
 What can you enter?
 -------------------------------------------------------------------------
 You can enter [space] / [,] / [.] / [!] / [?] / ['] / ["] / numbers / letters.
@@ -25,7 +26,7 @@ You can enter [space] / [,] / [.] / [!] / [?] / ['] / ["] / numbers / letters.
 Please Leave Your ❤️& ⭐️!
 ```
 
-``` text [Notes and Credits]
+```text [Notes and Credits]
 Shortcut key (part)..........................................Function
 -------------------------------------------------------------------------
 3 clicking ............................... Single row full selection

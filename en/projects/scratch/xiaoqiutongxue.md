@@ -7,17 +7,18 @@
 https://scratch.mit.edu/projects/377632108
 
 ::: details Embed Link
-``` html
+
+```html
 <iframe src="https://scratch.mit.edu/projects/377632108/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 ```
-:::
 
+:::
 
 ## Description
 
 ::: code-group
 
-``` text [Instructions]
+```text [Instructions]
 欢迎使用由 @Little-Earthworm 原创《小蚯同学》，以下是小蚯同学的自述
 ————————————————————————
 按键 ....................................................................... 功能
@@ -56,7 +57,7 @@ https://scratch.mit.edu/projects/377632108
 更多功能正在努力研制，欢迎在评论区投稿，让我拥有更强大的功能哦！
 ```
 
-``` text [Notes and Credits]
+```text [Notes and Credits]
 备注
 1.目前只限于非平板模式使用，作者将在后期更改为平板模式
 2.由于使用了文字朗读模块，所以首次使用可能会加载一会儿

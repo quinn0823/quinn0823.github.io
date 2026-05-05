@@ -7,23 +7,24 @@
 https://scratch.mit.edu/projects/419850174
 
 ::: details 嵌入网页
-``` html
+
+```html
 <iframe src="https://scratch.mit.edu/projects/419850174/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 ```
-:::
 
+:::
 
 ## 描述
 
 ::: code-group
 
-``` text [操作说明]
+```text [操作说明]
 Click [Green Flag] to begin
 
 Press any key to go to the next page
 ```
 
-``` text [备注与鸣谢]
+```text [备注与鸣谢]
 After reading this tutorial, you will learn a lot of emojis that you don't know!
 ————————————————————————
 You can try it in the comments section!

@@ -7,23 +7,24 @@
 https://scratch.mit.edu/projects/419850174
 
 ::: details Embed Link
-``` html
+
+```html
 <iframe src="https://scratch.mit.edu/projects/419850174/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 ```
-:::
 
+:::
 
 ## Description
 
 ::: code-group
 
-``` text [Instructions]
+```text [Instructions]
 Click [Green Flag] to begin
 
 Press any key to go to the next page
 ```
 
-``` text [Notes and Credits]
+```text [Notes and Credits]
 After reading this tutorial, you will learn a lot of emojis that you don't know!
 ————————————————————————
 You can try it in the comments section!

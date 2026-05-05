@@ -7,11 +7,12 @@
 https://scratch.mit.edu/projects/410051645
 
 ::: details Embed Link
-``` html
+
+```html
 <iframe src="https://scratch.mit.edu/projects/410051645/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 ```
-:::
 
+:::
 
 ## Description
 
@@ -21,11 +22,11 @@ Thanks to [MathSnail](https://scratch.mit.edu/users/MathSnail) for the original 
 
 ::: code-group
 
-``` text [Instructions]
+```text [Instructions]
 Click [Green Flag] to begin
 ```
 
-``` text [Notes and Credits]
+```text [Notes and Credits]
 This animation will tell you the beautiful scene all the year round!
 
 Please Leave Your ❤️& ⭐️!

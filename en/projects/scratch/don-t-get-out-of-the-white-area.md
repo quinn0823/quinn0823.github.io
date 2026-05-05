@@ -7,11 +7,12 @@
 https://scratch.mit.edu/projects/416589271
 
 ::: details Embed Link
-``` html
+
+```html
 <iframe src="https://scratch.mit.edu/projects/416589271/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 ```
-:::
 
+:::
 
 ## Description
 
@@ -21,13 +22,13 @@ Thanks to [gitignore](https://scratch.mit.edu/users/gitignore) for the original 
 
 ::: code-group
 
-``` text [Instructions]
+```text [Instructions]
 Click [Green Flag] to Begin
 
 Control the black ball, avoid various obstacles, and reach the end point, which is the red ball, enjoy!
 ```
 
-``` text [Notes and Credits]
+```text [Notes and Credits]
 This project will add in Earth OS within a week
 
 Please Leave Your ❤️& ⭐️!
