@@ -1,4 +1,4 @@
-# Voices [94+ Voices in 24+ Languages] {#voices}
+# 声音 [94+ Voices in 24+ Languages] {#voices}
 
 支持游戏支持的所有 14 种语言。
 
