@@ -46,7 +46,8 @@ function nav(): DefaultTheme.NavItem[] {
       text: 'Projects',
       items: [
         {
-          text: 'On...',items: [
+          text: 'On...',
+          items: [
             { text: 'Scratch', link: '/projects/scratch/overview' }
           ]
         }
