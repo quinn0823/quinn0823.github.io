@@ -1,8 +1,8 @@
-# ☁ Cloud Shared Artboard <Badge type="info" text="画笔" /> <Badge type="info" text="云变量" />
+# ☁ Cloud Shared Artboard <Badge type="info" text="画笔" /> <Badge type="info" text="云变量" /> {#cloud-shared-artboard}
 
 ![](/projects/scratch/417509515_480x360.png)
 
-## 链接
+## 链接 {#link}
 
 https://scratch.mit.edu/projects/417509515
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/417509515
 
 :::
 
-## 描述
+## 描述 {#description}
 
 ::: code-group
 

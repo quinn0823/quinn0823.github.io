@@ -1,8 +1,8 @@
-# ☁ Don't make a sound! <Badge type="info" text="云变量" />
+# ☁ Don't make a sound! <Badge type="info" text="云变量" /> {#don-t-make-a-sound}
 
 ![](/projects/scratch/415955109_480x360.png)
 
-## 链接
+## 链接 {#link}
 
 https://scratch.mit.edu/projects/415955109
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/415955109
 
 :::
 
-## 描述
+## 描述 {#description}
 
 ::: code-group
 

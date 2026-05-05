@@ -1,8 +1,8 @@
-# About Little-Earthworm <Badge type="info" text="画笔" />
+# About Little-Earthworm <Badge type="info" text="画笔" /> {#about-little-earthworm}
 
 ![](/projects/scratch/409291451_480x360.png)
 
-## 链接
+## 链接 {#link}
 
 https://scratch.mit.edu/projects/409291451
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/409291451
 
 :::
 
-## 描述
+## 描述 {#description}
 
 ::: code-group
 

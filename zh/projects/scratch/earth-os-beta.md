@@ -1,8 +1,8 @@
-# Earth OS ʙᴇᴛᴀ <Badge type="info" text="视频侦测" />
+# Earth OS ʙᴇᴛᴀ <Badge type="info" text="视频侦测" /> {#earth-os-beta}
 
 ![](/projects/scratch/410305536_480x360.png)
 
-## 链接
+## 链接 {#link}
 
 https://scratch.mit.edu/projects/410305536
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/410305536
 
 :::
 
-## 描述
+## 描述 {#description}
 
 ::: code-group
 

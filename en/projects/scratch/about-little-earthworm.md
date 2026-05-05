@@ -1,8 +1,8 @@
-# About Little-Earthworm <Badge type="info" text="Pen" />
+# About Little-Earthworm <Badge type="info" text="Pen" /> {#about-little-earthworm}
 
 ![](/projects/scratch/409291451_480x360.png)
 
-## Link
+## Link {#link}
 
 https://scratch.mit.edu/projects/409291451
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/409291451
 
 :::
 
-## Description
+## Description {#description}
 
 ::: code-group
 

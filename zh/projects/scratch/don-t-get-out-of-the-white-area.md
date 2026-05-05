@@ -1,8 +1,8 @@
-# ☁ Don't get out of the white area! <Badge type="info" text="云变量" />
+# ☁ Don't get out of the white area! <Badge type="info" text="云变量" /> {#don-t-get-out-of-the-white-area}
 
 ![](/projects/scratch/416589271_480x360.png)
 
-## 链接
+## 链接 {#link}
 
 https://scratch.mit.edu/projects/416589271
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/416589271
 
 :::
 
-## 描述
+## 描述 {#description}
 
 ::: info Remix Credit
 感谢原作[别出白线](https://scratch.mit.edu/projects/400871131)的作者 [gitignore](https://scratch.mit.edu/users/gitignore)。

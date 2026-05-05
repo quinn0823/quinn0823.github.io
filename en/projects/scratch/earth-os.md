@@ -1,8 +1,8 @@
-# Earth OS <Badge type="info" text="Video Sensing" /> <Badge type="info" text="Cloud Variables" />
+# Earth OS <Badge type="info" text="Video Sensing" /> <Badge type="info" text="Cloud Variables" /> {#earth-os}
 
 ![](/projects/scratch/413381564_480x360.png)
 
-## Link
+## Link {#link}
 
 https://scratch.mit.edu/projects/413381564
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/413381564
 
 :::
 
-## Description
+## Description {#description}
 
 ::: info Remix Credit
 Thanks to [Earthworm-Tutor](https://scratch.mit.edu/users/Earthworm-Tutor) for the original project [Earth OS ʙᴇᴛᴀ](https://scratch.mit.edu/projects/410305536).

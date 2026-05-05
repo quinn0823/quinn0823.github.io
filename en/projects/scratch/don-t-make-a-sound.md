@@ -1,8 +1,8 @@
-# ☁ Don't make a sound! <Badge type="info" text="Cloud Variables" />
+# ☁ Don't make a sound! <Badge type="info" text="Cloud Variables" /> {#don-t-make-a-sound}
 
 ![](/projects/scratch/415955109_480x360.png)
 
-## Link
+## Link {#link}
 
 https://scratch.mit.edu/projects/415955109
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/415955109
 
 :::
 
-## Description
+## Description {#description}
 
 ::: code-group
 

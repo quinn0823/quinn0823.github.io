@@ -1,8 +1,8 @@
-# Earth OS ʙᴇᴛᴀ <Badge type="info" text="Video Sensing" />
+# Earth OS ʙᴇᴛᴀ <Badge type="info" text="Video Sensing" /> {#earth-os-beta}
 
 ![](/projects/scratch/410305536_480x360.png)
 
-## Link
+## Link {#link}
 
 https://scratch.mit.edu/projects/410305536
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/410305536
 
 :::
 
-## Description
+## Description {#description}
 
 ::: code-group
 

@@ -1,8 +1,8 @@
-# Voices [94+ Voices in 24+ Languages]
+# Voices [94+ Voices in 24+ Languages] {#voices}
 
 支持游戏支持的所有 14 种语言。
 
-## 可用 (94 in 24)
+## 可用 (94 in 24) {#available}
 
 - Čeština (Česko) - Iveta (vylepšená verze)
 - Čeština (Česko) - Zuzana (prémiový)
@@ -99,6 +99,6 @@
 - 한국어 (대한민국) - Siri (음성 1)
 - 한국어 (대한민국) - Siri (음성 2)
 
-## 计划的 (0+ in 0+ New)
+## 计划的 (0+ in 0+ New) {#planned}
 
 - Your Request...

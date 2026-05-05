@@ -1,4 +1,4 @@
-# Apple Siri 语音导航
+# Apple Siri 语音导航 {#apple-siri-voice-navigation}
 
 [存储库](https://github.com/quinn0823/apple-siri-voice-navigation) | [创意工坊（欧卡 2）](https://steamcommunity.com/sharedfiles/filedetails/?id=3404021712) | [创意工坊（美卡）](https://steamcommunity.com/sharedfiles/filedetails/?id=3404022298) | [Nexus Mods（欧卡 2）](https://www.nexusmods.com/eurotrucksimulator2/mods/173) | [Nexus Mods（美卡）](https://www.nexusmods.com/americantrucksimulator/mods/77)
 

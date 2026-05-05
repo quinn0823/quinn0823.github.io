@@ -1,8 +1,8 @@
-# ☁ Don't move! <Badge type="info" text="Video Sensing" /> <Badge type="info" text="Cloud Variables" />
+# ☁ Don't move! <Badge type="info" text="Video Sensing" /> <Badge type="info" text="Cloud Variables" /> {#don-t-move}
 
 ![](/projects/scratch/414137279_480x360.png)
 
-## Link
+## Link {#link}
 
 https://scratch.mit.edu/projects/414137279
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/414137279
 
 :::
 
-## Description
+## Description {#description}
 
 ::: code-group
 

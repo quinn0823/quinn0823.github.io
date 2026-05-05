@@ -1,8 +1,8 @@
-# About Earthworm-Tutor <Badge type="info" text="Pen" />
+# About Earthworm-Tutor <Badge type="info" text="Pen" /> {#about-earthworm-tutor}
 
 ![](/projects/scratch/409292298_480x360.png)
 
-## Link
+## Link {#link}
 
 https://scratch.mit.edu/projects/409292298
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/409292298
 
 :::
 
-## Description
+## Description {#description}
 
 ::: code-group
 

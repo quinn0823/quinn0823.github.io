@@ -1,8 +1,8 @@
-# Earth OS <Badge type="info" text="视频侦测" /> <Badge type="info" text="云变量" />
+# Earth OS <Badge type="info" text="视频侦测" /> <Badge type="info" text="云变量" /> {#earth-os}
 
 ![](/projects/scratch/413381564_480x360.png)
 
-## 链接
+## 链接 {#link}
 
 https://scratch.mit.edu/projects/413381564
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/413381564
 
 :::
 
-## 描述
+## 描述 {#description}
 
 ::: info Remix Credit
 感谢原作 [Earth OS ʙᴇᴛᴀ](https://scratch.mit.edu/projects/410305536) 的作者 [Earthworm-Tutor](https://scratch.mit.edu/users/Earthworm-Tutor)。

@@ -1,8 +1,8 @@
-# 4 Seasons
+# 4 Seasons {#_4-seasons}
 
 ![](/projects/scratch/410051645_480x360.png)
 
-## Link
+## Link {#link}
 
 https://scratch.mit.edu/projects/410051645
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/410051645
 
 :::
 
-## Description
+## Description {#description}
 
 ::: info Remix Credit
 Thanks to [MathSnail](https://scratch.mit.edu/users/MathSnail) for the original project [Seasons Art Contest Entry](https://scratch.mit.edu/projects/358909840).

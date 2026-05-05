@@ -1,8 +1,8 @@
-# 小蚯同学 - 您身边的中文人工智能助手 (Remastered 2026) <Badge type="info" text="文本朗读" /> <Badge type="info" text="翻译" />
+# 小蚯同学 - 您身边的中文人工智能助手 (Remastered 2026) <Badge type="info" text="文本朗读" /> <Badge type="info" text="翻译" /> {#xiaoqiutongxue}
 
 ![](/projects/scratch/377632108_480x360.png)
 
-## 链接
+## 链接 {#link}
 
 https://scratch.mit.edu/projects/377632108
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/377632108
 
 :::
 
-## 描述
+## 描述 {#description}
 
 ::: code-group
 

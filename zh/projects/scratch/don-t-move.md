@@ -1,8 +1,8 @@
-# ☁ Don't move! <Badge type="info" text="视频侦测" /> <Badge type="info" text="云变量" />
+# ☁ Don't move! <Badge type="info" text="视频侦测" /> <Badge type="info" text="云变量" /> {#don-t-move}
 
 ![](/projects/scratch/414137279_480x360.png)
 
-## 链接
+## 链接 {#link}
 
 https://scratch.mit.edu/projects/414137279
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/414137279
 
 :::
 
-## 描述
+## 描述 {#description}
 
 ::: code-group
 

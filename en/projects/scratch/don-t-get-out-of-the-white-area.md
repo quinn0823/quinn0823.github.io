@@ -1,8 +1,8 @@
-# ☁ Don't get out of the white area! <Badge type="info" text="Cloud Variables" />
+# ☁ Don't get out of the white area! <Badge type="info" text="Cloud Variables" /> {#don-t-get-out-of-the-white-area}
 
 ![](/projects/scratch/416589271_480x360.png)
 
-## Link
+## Link {#link}
 
 https://scratch.mit.edu/projects/416589271
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/416589271
 
 :::
 
-## Description
+## Description {#description}
 
 ::: info Remix Credit
 Thanks to [gitignore](https://scratch.mit.edu/users/gitignore) for the original project [别出白线](https://scratch.mit.edu/projects/400871131).

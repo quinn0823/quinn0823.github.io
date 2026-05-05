@@ -1,8 +1,8 @@
-# Secret Converter <Badge type="info" text="翻译" />
+# Secret Converter <Badge type="info" text="翻译" /> {#secret-converter}
 
 ![](/projects/scratch/380777230_480x360.png)
 
-## 链接
+## 链接 {#link}
 
 https://scratch.mit.edu/projects/380777230
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/380777230
 
 :::
 
-## 描述
+## 描述 {#description}
 
 ::: code-group
 

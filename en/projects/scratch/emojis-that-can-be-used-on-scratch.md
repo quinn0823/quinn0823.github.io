@@ -1,8 +1,8 @@
-# Emojis That Can Be Used On Scratch
+# Emojis That Can Be Used On Scratch {#emojis-that-can-be-used-on-scratch}
 
 ![](/projects/scratch/419850174_480x360.png)
 
-## Link
+## Link {#link}
 
 https://scratch.mit.edu/projects/419850174
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/419850174
 
 :::
 
-## Description
+## Description {#description}
 
 ::: code-group
 

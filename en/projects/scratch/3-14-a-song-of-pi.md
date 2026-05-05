@@ -1,8 +1,8 @@
-# 3.14 - A Song Of π (2500 Decimal Places) <Badge type="info" text="Music" />
+# 3.14 - A Song Of π (2500 Decimal Places) <Badge type="info" text="Music" /> {#_3-14-a-song-of-pi}
 
 ![](/projects/scratch/410036839_480x360.png)
 
-## Link
+## Link {#link}
 
 https://scratch.mit.edu/projects/410036839
 
@@ -14,7 +14,7 @@ https://scratch.mit.edu/projects/410036839
 
 :::
 
-## Description
+## Description {#description}
 
 ::: code-group
 
