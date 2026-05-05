@@ -11,7 +11,7 @@
 
 ![](/projects/scratch/413381564_480x360.png)
 
-### [小蚯同学 - 您身边的中文人工智能助手 (Remastered 2026) (Xiao Qiu - Your Personal Chinese AI Assistant (Remastered 2026))](xiaoqiutongxue) <Badge type="info" text="Text to Speech" /> <Badge type="info" text="Translate" />
+### [小蚯同学 - 您身边的中文人工智能助手 (Remastered 2026)](xiaoqiutongxue) <Badge type="info" text="Text to Speech" /> <Badge type="info" text="Translate" />
 
 ![](/projects/scratch/377632108_480x360.png)
 
