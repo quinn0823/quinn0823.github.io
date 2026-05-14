@@ -83,6 +83,15 @@ function sidebarProjectsTruckSimulatorAppleSiriVoiceNavigation(): DefaultTheme.S
         { text: 'Download', link: 'download' },
         { text: 'Usage', link: 'usage' }
       ]
+    },
+    {
+      text: '',
+      items: [
+        { text: 'If You Want More Voices...', link: 'if-you-want-more-voices' },
+        { text: 'If You Find a Mistake...', link: 'if-you-find-a-mistake' },
+        { text: 'If You Would Like to Support Me...', link: 'if-you-would-like-to-support-me' },
+        { text: 'If You Want to Contribute...', link: 'if-you-want-to-contribute' }
+      ]
     }
   ]
 }
