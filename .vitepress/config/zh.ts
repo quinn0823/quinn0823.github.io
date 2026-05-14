@@ -92,7 +92,8 @@ function sidebarProjectsTruckSimulatorAppleSiriVoiceNavigation(): DefaultTheme.S
         { text: '如果你想支持我…', link: 'if-you-would-like-to-support-me' },
         { text: '如果你想贡献…', link: 'if-you-want-to-contribute' }
       ]
-    }
+    },
+    { text: '版权', link: 'copyright' }
   ]
 }
 
