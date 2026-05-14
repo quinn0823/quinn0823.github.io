@@ -78,6 +78,7 @@ function sidebarProjectsTruckSimulatorAppleSiriVoiceNavigation(): DefaultTheme.S
     {
       text: '',
       items: [
+        { text: '介绍', link: 'introduction' },
         { text: '声音', link: 'voices' },
         { text: '兼容性', link: 'compatibility' },
         { text: '下载', link: 'download' },
