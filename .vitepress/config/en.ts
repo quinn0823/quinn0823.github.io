@@ -76,7 +76,7 @@ function sidebarProjectsTruckSimulatorAppleSiriVoiceNavigation(): DefaultTheme.S
   return [
     { text: 'Overview', link: 'overview' },
     {
-      text: '',
+      text: 'Get Started',
       items: [
         { text: 'Introduction', link: 'introduction' },
         { text: 'Voices', link: 'voices' },
@@ -86,7 +86,7 @@ function sidebarProjectsTruckSimulatorAppleSiriVoiceNavigation(): DefaultTheme.S
       ]
     },
     {
-      text: '',
+      text: 'Get Involved',
       items: [
         { text: 'If You Want More Voices...', link: 'if-you-want-more-voices' },
         { text: 'If You Find a Mistake...', link: 'if-you-find-a-mistake' },
