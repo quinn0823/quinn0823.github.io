@@ -10,9 +10,9 @@
     }
   ],
   "observability": {
-    "enabled": false,
+    "enabled": true,
     "traces": {
-      "enabled": true,
+      "enabled": true
     }
   },
   "assets": {
