@@ -4,7 +4,7 @@
   "compatibility_date": "2026-05-15",
   "route": {
     "pattern": "www.jchiu.dpdns.org/*",
-    "zone_name": "www.jchiu.dpdns.org"
+    "zone_name": "jchiu.dpdns.org"
   },
   "observability": {
     "enabled": true
