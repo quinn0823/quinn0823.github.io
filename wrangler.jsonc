@@ -8,6 +8,12 @@
       "zone_name": "jchiu.dpdns.org"
     }
   ],
+  "observability": {
+    "enabled": false,
+    "traces": {
+      "enabled": true,
+    }
+  },
   "assets": {
     "directory": "./.vitepress/dist"
   }
