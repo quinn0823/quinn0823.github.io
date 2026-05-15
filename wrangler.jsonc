@@ -2,10 +2,14 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "quinn0823-github-io",
   "compatibility_date": "2026-05-15",
-  "assets": {
-    "directory": "./.vitepress/dist"
+  "route": {
+    "pattern": "www.jchiu.dpdns.org/*",
+    "zone_name": "www.jchiu.dpdns.org"
   },
   "observability": {
-    "enabled": true,
+    "enabled": true
+  },
+  "assets": {
+    "directory": "./.vitepress/dist"
   }
 }
