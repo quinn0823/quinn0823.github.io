@@ -22,10 +22,6 @@ export const shared = defineConfig({
   cleanUrls: true,
   metaChunk: true,
 
-  sitemap: {
-    hostname: 'https://quinn0823.github.io'
-  },
-
   head: [['link', { rel: 'icon', href: '/le-flat-fill-blue-transparent.svg' }]],
 
   themeConfig: {
