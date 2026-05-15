@@ -10,10 +10,7 @@
     }
   ],
   "observability": {
-    "enabled": true,
-    "traces": {
-      "enabled": true
-    }
+    "enabled": true
   },
   "assets": {
     "directory": "./.vitepress/dist"
