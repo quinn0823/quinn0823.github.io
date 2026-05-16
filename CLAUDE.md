@@ -12,7 +12,7 @@ npm run docs:preview  # Preview production build locally
 
 ## Architecture
 
-This is Jonathan Chiu's personal website, a **bilingual VitePress site** deployed to GitHub Pages.
+This is Jonathan Chiu's personal website, a **bilingual VitePress site** deployed to both GitHub Pages and Cloudflare Workers.
 
 ### Localization
 
@@ -58,7 +58,13 @@ Custom theme at `.vitepress/theme/` extends the default VitePress theme with:
 
 ### Deployment
 
-On push to `main`, `.github/workflows/deploy.yml` builds the site (Node 20, `npm ci`, `npm run docs:build`) and deploys `.vitepress/dist` to GitHub Pages.
+On push to `main`, `.github/workflows/deploy.yml` runs three jobs:
+
+1. **Build** — Checks out the repo, installs deps (Node 24, `npm ci`), runs `npm run docs:build`, and uploads `.vitepress/dist` as an artifact.
+2. **Deploy to GitHub Pages** — Deploys the artifact to GitHub Pages via `actions/deploy-pages`.
+3. **Deploy to Cloudflare Workers** — Downloads the artifact, then runs `npx wrangler deploy` to push the static site to Cloudflare Workers (configured in `wrangler.jsonc` with asset serving and a custom domain route). Requires `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` secrets.
+
+Cloudflare Workers is the primary serving path; GitHub Pages is kept as a fallback. The Workers route uses `workers_dev: true` and routes `www.jchiu.dpdns.org/*`.
 
 ### Code style
 
