@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Jonathan Chiu
   text: Hi! I'm Jonathan Chiu.
-  # tagline: Developer, enthusiast of the Yi Jing (Book of Change).
+  tagline: Developer, enthusiast of the Yijing and Zhongyi.
   image: /le-flat-fill-blue-transparent.svg
   # actions:
   #   - theme: brand
