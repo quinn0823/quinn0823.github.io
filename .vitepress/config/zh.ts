@@ -86,6 +86,28 @@ function nav(): DefaultTheme.NavItem[] {
           ]
         }
       ]
+    },
+    {
+      text: '易经',
+      items: [
+        // {
+        //   text: '主要服务',
+        //   items: []
+        // },
+        // {
+        //   text: '免费服务',
+        //   items: []
+        // },
+        {
+          text: '自助服务',
+          items: [
+            {
+              text: '八字身强身弱和喜用计算器',
+              link: '/zh/yijing/amistrong/overview'
+            }
+          ]
+        }
+      ]
     }
   ]
 }

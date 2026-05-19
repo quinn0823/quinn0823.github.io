@@ -86,6 +86,28 @@ function nav(): DefaultTheme.NavItem[] {
           ]
         }
       ]
+    },
+    {
+      text: 'Yijing',
+      items: [
+        // {
+        //   text: 'Main Services',
+        //   items: []
+        // },
+        // {
+        //   text: 'Free Services',
+        //   items: []
+        // },
+        {
+          text: 'Self-Service Services',
+          items: [
+            {
+              text: 'AmIStrong?',
+              link: '/yijing/amistrong/overview'
+            }
+          ]
+        }
+      ]
     }
   ]
 }
