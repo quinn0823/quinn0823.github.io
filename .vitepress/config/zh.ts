@@ -81,7 +81,7 @@ function nav(): DefaultTheme.NavItem[] {
           items: [
             {
               text: '歌词工具',
-              link: '/tools/lyrics-tools/overview'
+              link: '/zh/tools/lyrics-tools/overview'
             }
           ]
         }
