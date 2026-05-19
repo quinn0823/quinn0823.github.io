@@ -18,6 +18,10 @@ export const zh = defineConfig({
       '/zh/projects/scratch/': {
         base: '/zh/projects/scratch/',
         items: sidebarProjectsScratch()
+      },
+      '/zh/tools/lyrics-tools/': {
+        base: '/zh/tools/lyrics-tools/',
+        items: sidebarToolsLyricsTools()
       }
     },
 
@@ -66,6 +70,20 @@ function nav(): DefaultTheme.NavItem[] {
         {
           text: '…上的',
           items: [{ text: 'Scratch', link: '/zh/projects/scratch/overview' }]
+        }
+      ]
+    },
+    {
+      text: '工具',
+      items: [
+        {
+          text: '适用于媒体服务器',
+          items: [
+            {
+              text: '歌词工具',
+              link: '/tools/lyrics-tools/overview'
+            }
+          ]
         }
       ]
     }
@@ -164,6 +182,28 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'About Little-Earthworm', link: 'about-little-earthworm' },
         { text: 'About Earthworm-Tutor', link: 'about-earthworm-tutor' }
+      ]
+    }
+  ]
+}
+
+function sidebarToolsLyricsTools(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: '概述', link: 'overview' },
+    {
+      text: 'quinn0823/ttml2lrc',
+      items: [{ text: 'TTML2LRC', link: 'ttml2lrc' }]
+    },
+    {
+      text: 'quinn0823/shazam2lrc',
+      items: [{ text: 'Shazam2LRC', link: 'shazam2lrc' }]
+    },
+    {
+      text: 'quinn0823/lyrics-tools',
+      items: [
+        { text: '格式化器', link: 'formatter' },
+        { text: '重命名器', link: 'renamer' },
+        { text: '引号扫描器', link: 'quote-scanner' }
       ]
     }
   ]

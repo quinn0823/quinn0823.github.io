@@ -18,6 +18,10 @@ export const en = defineConfig({
       '/projects/scratch/': {
         base: '/projects/scratch/',
         items: sidebarProjectsScratch()
+      },
+      '/tools/lyrics-tools/': {
+        base: '/tools/lyrics-tools/',
+        items: sidebarToolsLyricsTools()
       }
     },
 
@@ -66,6 +70,20 @@ function nav(): DefaultTheme.NavItem[] {
         {
           text: 'On...',
           items: [{ text: 'Scratch', link: '/projects/scratch/overview' }]
+        }
+      ]
+    },
+    {
+      text: 'Tools',
+      items: [
+        {
+          text: 'For Media Servers',
+          items: [
+            {
+              text: 'Lyrics Tools',
+              link: '/tools/lyrics-tools/overview'
+            }
+          ]
         }
       ]
     }
@@ -170,6 +188,28 @@ function sidebarProjectsScratch(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'About Little-Earthworm', link: 'about-little-earthworm' },
         { text: 'About Earthworm-Tutor', link: 'about-earthworm-tutor' }
+      ]
+    }
+  ]
+}
+
+function sidebarToolsLyricsTools(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: 'Overview', link: 'overview' },
+    {
+      text: 'quinn0823/ttml2lrc',
+      items: [{ text: 'TTML2LRC', link: 'ttml2lrc' }]
+    },
+    {
+      text: 'quinn0823/shazam2lrc',
+      items: [{ text: 'Shazam2LRC', link: 'shazam2lrc' }]
+    },
+    {
+      text: 'quinn0823/lyrics-tools',
+      items: [
+        { text: 'Formatter', link: 'formatter' },
+        { text: 'Renamer', link: 'renamer' },
+        { text: 'Quote Scanner', link: 'quote-scanner' }
       ]
     }
   ]
