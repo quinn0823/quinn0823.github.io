@@ -70,6 +70,11 @@ jobs:
         uses: pnpm/action-setup@v6
         with:
           version: 11
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: pnpm
       - name: Download artifact
         uses: actions/download-artifact@v8
         with:
@@ -79,6 +84,6 @@ jobs:
         run: tar -xf .vitepress/dist/artifact.tar -C .vitepress/dist && rm .vitepress/dist/artifact.tar
       - name: Deploy
         id: deployment
-        uses: cloudflare/wrangler-action@v4
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: pnpm dlx wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
