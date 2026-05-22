@@ -5,14 +5,14 @@
       "type": "node-terminal",
       "name": "Run Script: docs:dev",
       "request": "launch",
-      "command": "npm run docs:dev",
+      "command": "pnpm run docs:dev",
       "cwd": "${workspaceFolder}"
     },
     {
       "type": "node-terminal",
       "name": "Run Script: docs:preview",
       "request": "launch",
-      "command": "npm run docs:preview",
+      "command": "pnpm run docs:preview",
       "cwd": "${workspaceFolder}"
     }
   ]
