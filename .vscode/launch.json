@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node-terminal",
+      "name": "Run Script: docs:dev",
+      "request": "launch",
+      "command": "npm run docs:dev",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node-terminal",
+      "name": "Run Script: docs:preview",
+      "request": "launch",
+      "command": "npm run docs:preview",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
