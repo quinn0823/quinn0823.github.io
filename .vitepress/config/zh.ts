@@ -19,8 +19,8 @@ export const zh = defineConfig({
         base: '/zh/projects/scratch/',
         items: sidebarProjectsScratch()
       },
-      '/zh/tools/lyrics-tools/': {
-        base: '/zh/tools/lyrics-tools/',
+      '/zh/projects/lyrics-tools/': {
+        base: '/zh/projects/lyrics-tools/',
         items: sidebarToolsLyricsTools()
       }
     },
@@ -68,22 +68,17 @@ function nav(): DefaultTheme.NavItem[] {
           ]
         },
         {
-          text: '…上的',
-          items: [{ text: 'Scratch', link: '/zh/projects/scratch/overview' }]
-        }
-      ]
-    },
-    {
-      text: '工具',
-      items: [
-        {
           text: '适用于媒体服务器',
           items: [
             {
               text: '歌词工具',
-              link: '/zh/tools/lyrics-tools/overview'
+              link: '/zh/projects/lyrics-tools/overview'
             }
           ]
+        },
+        {
+          text: '…上的',
+          items: [{ text: 'Scratch', link: '/zh/projects/scratch/overview' }]
         }
       ]
     },

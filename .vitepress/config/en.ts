@@ -19,8 +19,8 @@ export const en = defineConfig({
         base: '/projects/scratch/',
         items: sidebarProjectsScratch()
       },
-      '/tools/lyrics-tools/': {
-        base: '/tools/lyrics-tools/',
+      '/projects/lyrics-tools/': {
+        base: '/projects/lyrics-tools/',
         items: sidebarToolsLyricsTools()
       }
     },
@@ -68,22 +68,17 @@ function nav(): DefaultTheme.NavItem[] {
           ]
         },
         {
-          text: 'On...',
-          items: [{ text: 'Scratch', link: '/projects/scratch/overview' }]
-        }
-      ]
-    },
-    {
-      text: 'Tools',
-      items: [
-        {
           text: 'For Media Servers',
           items: [
             {
               text: 'Lyrics Tools',
-              link: '/tools/lyrics-tools/overview'
+              link: '/projects/lyrics-tools/overview'
             }
           ]
+        },
+        {
+          text: 'On...',
+          items: [{ text: 'Scratch', link: '/projects/scratch/overview' }]
         }
       ]
     },
