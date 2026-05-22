@@ -44,7 +44,7 @@ jobs:
         with:
           path: .vitepress/dist
 
-  deploy-github:
+  deploy-github-pages:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -52,26 +52,15 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy to GitHub Pages
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v5
 
-  deploy-cloudflare:
+  deploy-cloudflare-workers:
     needs: build
     runs-on: ubuntu-latest
     name: Deploy to Cloudflare Workers
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v6
-        with:
-          version: 11
-      - name: Setup Node
-        uses: actions/setup-node@v6
-        with:
-          node-version: 24
-          cache: pnpm
       - name: Download artifact
         uses: actions/download-artifact@v8
         with:
@@ -79,10 +68,7 @@ jobs:
           path: .vitepress/dist
       - name: Extract artifact
         run: tar -xf .vitepress/dist/artifact.tar -C .vitepress/dist && rm .vitepress/dist/artifact.tar
-      - name: Install dependencies
-        run: pnpm ci
-      - name: Deploy to Cloudflare Workers
-        run: pnpm dlx wrangler deploy
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v4
         env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
