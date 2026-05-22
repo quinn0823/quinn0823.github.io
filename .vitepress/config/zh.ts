@@ -11,8 +11,8 @@ export const zh = defineConfig({
     nav: nav(),
 
     sidebar: {
-      '/zh/projects/truck-simulator/apple-siri-voice-navigation/': {
-        base: '/zh/projects/truck-simulator/apple-siri-voice-navigation/',
+      '/zh/projects/apple-siri-voice-navigation/': {
+        base: '/zh/projects/apple-siri-voice-navigation/',
         items: sidebarProjectsTruckSimulatorAppleSiriVoiceNavigation()
       },
       '/zh/projects/scratch/': {
@@ -63,7 +63,7 @@ function nav(): DefaultTheme.NavItem[] {
           items: [
             {
               text: 'Apple Siri 语音导航',
-              link: '/zh/projects/truck-simulator/apple-siri-voice-navigation/overview'
+              link: '/zh/projects/apple-siri-voice-navigation/overview'
             }
           ]
         },
