@@ -57,6 +57,9 @@ jobs:
         uses: actions/deploy-pages@v5
 
   deploy-cloudflare-workers:
+    environment:
+      name: cloudflare-workers
+      url: ${{ steps.deployment.outputs.deployment-url }}
     needs: build
     runs-on: ubuntu-latest
     name: Deploy to Cloudflare Workers
@@ -75,6 +78,7 @@ jobs:
       - name: Extract artifact
         run: tar -xf .vitepress/dist/artifact.tar -C .vitepress/dist && rm .vitepress/dist/artifact.tar
       - name: Deploy
+        id: deployment
         uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
