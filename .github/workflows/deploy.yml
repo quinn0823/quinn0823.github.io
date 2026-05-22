@@ -74,3 +74,4 @@ jobs:
         uses: cloudflare/wrangler-action@v4
         env:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          packageManager: pnpm
